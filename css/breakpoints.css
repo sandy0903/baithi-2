@@ -609,13 +609,30 @@
     .table-courses .table-header .time{
         width:242px;
     }
+    .noti-box .txt,
+    .my-courses .course .info-course .title{
+        font-size:1.4rem;
+    }
 }
 @media only screen and (max-width:414px){
+    .table-courses .table-header .time{
+        height:fit-content;
+    }
     
 }
 @media only screen and (max-width:375px){
 
 }
 @media only screen and (max-width:360px){
-    
+    .table-courses .table-header h3{
+        display:none;
+    }
+    .my-courses .header-course h2,
+    .examination .header-examination h2,
+    .news-col .fav-teacher .title{
+        font-size:1.4rem;
+    }
+    .my-courses .course .info-course .rate button{
+        font-size:1rem;
+    }
 }
