@@ -25,7 +25,18 @@
       max-width: 800px;
     }
   }
-  
+  @media only screen and (max-width:600px){
+
+    .charts-css.column.show-labels tbody tr th{
+      display:none !important;
+    }
+    .l-128px{
+      left:128px !important;
+    }
+    .l-108px{
+      left:-108px !important;
+    }
+  }
   @media (min-width: 1000px) {
     #my-chart .column {
       height: 296px;

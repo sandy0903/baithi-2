@@ -8,3 +8,12 @@ document.querySelector(".hamburger-menu").onclick=function(){
     }
     
 }
+document.querySelector(".img-icon").onclick=function(){
+    if(document.querySelector(".content").classList.contains("animate-col")){
+        document.querySelector(".content").classList.remove("animate-col")
+
+    }else{
+        document.querySelector(".content").classList.add("animate-col")
+
+    }
+}

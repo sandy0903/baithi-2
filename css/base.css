@@ -177,3 +177,8 @@ button{
      margin-left:auto;
      margin-right:auto;
  }
+
+ .imgIcon-col{
+     width:223px;
+     display: block !important;
+ }

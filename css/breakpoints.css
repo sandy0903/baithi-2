@@ -1,6 +1,13 @@
 /* Desktop */
 @media only screen and (max-width:1920px){
-    
+    .news-col .moreInfo-col,
+    .news-col .plan,
+    .news-col .fav-teacher,
+    .news-col .fr,
+    .news-col .wrapper-plan,
+    .img-icon{
+        display:none;
+    }
 }
 @media only screen and (max-width:1440px){
 
@@ -232,6 +239,7 @@
     .live-timetable .live p.desc,
     .moreInfo-col div .gradient-border{
         font-size:1rem;
+        line-height:1rem;
     }
 }
 @media only screen and (max-width:1093px){
@@ -269,6 +277,7 @@
     .content .news-col{
         margin-left:0;
         margin-right:10px;
+        width:60%;
     }
     .content .moreInfo-col{
 
@@ -302,48 +311,296 @@
     .hori-line{
         margin:auto;
     }
+    .my-courses .course .info-course .rate button,
+     .teachers p,
+     .live-timetable .live .title, 
+     .live-timetable .live p.desc, 
+     .moreInfo-col div .gradient-border,
+     .table-courses .table-header .time h5{
+        font-size:0.8rem;
+        line-height:1rem;
+    }
+    .live-timetable .live .title{
+        margin-bottom:2px;
+    }
+    .noti .title,
+    .table-courses .table-header h3,
+    .my-courses .header-course h2,
+    .examination .header-examination h2,
+    .live-timetable .header-timetable h2,
+    .moreInfo-col div .celender span{
+        font-size:1.6rem;
+        line-height:2.2rem;
+    }
+    .exam-list .exam .exam-info p:not(:last-child){
+        margin:0;
+    }
     
+
+
 }
-/*
+
 @media only screen and (max-width:768px){
-    .content .container{
-        flex-direction: column
+    .header-timetable p{
+        line-height:1.2rem;
     }
-    .hamburger-menu{
-        position: inherit
+    .header-timetable img{
+        width:10px;
+        height:10px;
     }
-    header{
-        position: relative;
+    .boxes .box{
+        padding:10px 15px;
+    }
+    .boxes .box-coins h1, .boxes .box-course h1{
+        font-size:2rem;
+        line-height:2.5rem;
+    }
+    
+    .my-courses .course>img{
+        width:30%;
+    }
+    .my-courses .course .info-course .course-price{
+        margin-bottom:10px;
+    }
+    .banner .banner-contact{
+        margin-top:0;
+        width:100%;
+    }
+    .live-timetable .live p,
+     .live-timetable .live .primary-bg,
+     .exam-list .exam .exam-info p:not(:last-child),
+     .live-timetable .live p, .live-timetable .live .primary-bg, .exam-list .exam .exam-info p{
+        font-size:0.8rem;
+        line-height:1rem;
+    }
+    .table-courses .table-header,
+    .my-courses .header-course,
+    .examination .header-examination,
+    .live-timetable .header-timetable,
+    {
+        margin-bottom:10px;
+    }
+    .my-courses .course:not(:last-child){
+        margin-top:10px;
+    }
+    .table-courses .table-header .time h5{
+        font-size:1rem;
+        line-height:1.3rem;
+    }
+    .exam-body .exam-list .exam img{
+        margin-right:10px;
+    }
+    .my-courses .course .info-course .rate .primary-bg{
+        margin:0 10px;
+    }
+    .my-courses .course .info-course .rate button,
+    .live-timetable .live p.desc{
+        padding:2px 3px;
+    }
+}
+@media only screen and (max-width:700px){
+    .live-timetable .live p.desc{
+        font-size:0.3rem;
+    }
+    .boxes .box img{
+        width:50px;
+        height:50px;
+        margin-right:1rem;
+    }
+    .boxes .box{
+        padding:5px 8px;
+    }
+    .noti-box .txt,footer p,footer span
+    {
+        font-size:1rem;
+    }
+    footer h2,nav .nav-menu .menu a,
+    .my-courses .course .info-course .course-price{
+        font-size:1.2rem;
+        line-height: 2rem;
+    }
+}
+@media only screen and (max-width:660px){
+    .examination .exam-body >img{
+        width:30%;
+        height:auto;
+
+    }
+    .exam-list .exam .exam-info h3{
+        font-size:1rem;
+        line-height:1.3rem;
+    }
+    .vertical-line{
+        margin:0 1px;
+    }
+    .live-timetable .live .primary-bg{
+        padding:2px 5px;
+    }
+}
+/* Mobile */
+@media only screen and (max-width:600px){
+    header,
+    .content .moreInfo-col,
+    .banner .banner-contact,
+    .boxes .box img,
+    
+    .examination .exam-body >img,
+    .live-timetable,
+    .my-courses .course .info-course .course-price,
+    footer{
+        display:none;
     }
     .content{
-        overflow-x:hidden;
+        overflow:hidden;
+        padding-top:0;
+        
     }
-    .boxes .box .title, .moreInfo-col div .title,
-     div .celender-course .course-title,
+    .content .container,.content .news-col,
+    .banner-content .banner-txt{
+        margin:0;
+    }
+    .content .news-col .banner,
+    .noti,
+    .news-col .moreInfo-col >div ,
+    .examination,
+    .live-timetable
+    {
+        border-radius:0;
+    }
+
+    .content .news-col .banner{
+        border-radius:0;
+        justify-content: center;
+        align-items:center;
+    }
+    .boxes,.news-col .plan,.news-col .fav-teacher,
+    .news-col .fr{
+        padding:16px ;
+        background-color:#fff;
+        text-align: center;
+    }
+    .boxes .box{
+        padding:10px;
+        width:47%;
+        justify-content: center;
+    }
+    .noti .title, .table-courses .table-header h3, 
+    .my-courses .header-course h2, .examination .header-examination h2,
+     .live-timetable .header-timetable h2, .moreInfo-col div .celender span,
+     .news-col .moreInfo-col .title,
+     .news-col .plan .title,
+     .news-col .fav-teacher .title,
+     .news-col .fr .title
      {
-        font-size: 2rem;
-        font-weight: 700;
-        line-height: 2.6rem;
+        font-size:2rem;
+        line-height:2.6rem;
     }
-    .moreInfo-col div .celender{
-        background:none;
+    .noti-box .label,
+    .noti-box .txt,
+    .table-courses .table-header .time h5,
+    div .celender-course .course-title,
+    .exam-list .exam .exam-info h3,
+    .my-courses .course .info-course .title,
+    .teachers .name,
+    .plan .plans h3.title,
+    .table-courses .table-header h3{
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+        
     }
+
+    .news-col .moreInfo-col,
+    .news-col .plan,
+    .news-col .fav-teacher,
+    .news-col .fr,
+    .news-col .wrapper-plan{
+        display:block;
+        width:100%;
+        margin-top:16px;
+    }
+    .header-timetable p,
     .moreInfo-col div .celender-course>div p,
+    .exam-list .exam .exam-info p,
+    .exam-list .exam .exam-info p:not(:last-child) ,
+    .teachers p{
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+    }
+    .exam-list .exam .exam-info p:not(:last-child){
+        margin:8px 0;
+    }
+    .flex-column,
+    .teachers > div.flex{
+        flex-direction: row;
+    }
     .moreInfo-col div .celender-course > img{
-        height:auto;
-    }
-    .friend-ls .friend-name >p,
-    .user-infor-name .btn, .user-col .user-achieve .btn, .user-col .user-achieve .title, .my-courses .course .info-course .title, .teachers .name, .plan .plans h3.title{
-        font-size: 1.5rem;
-        font-weight: 700;
-        line-height: 2.1rem;
-    }
-    .plan img{
         width:auto;
     }
+    .exam-list,.exam-info,
+    .my-courses .course>img{
+        width:100%;
+    }
+    .my-courses .course{
+        flex-direction: column-reverse;
+        padding:0;
+
+    }
+    .my-courses .course .info-course{
+        padding:16px;
+    }
+    .vertical-line{
+        margin:0 24px;
+    }
+    .my-courses .course .info-course .rate button{
+        padding:4px 8px;
+        font-size:1.3rem;
+        line-height:1.5rem;
+    }
+    .news-col .fav-teacher .header-timetable,
+    .news-col .fr .header-timetable{
+        margin-bottom:8px;
+    }
+    .news-col .fav-teacher{
+        text-align:left;
+    }
+    .ml-8 div{
+        justify-content: flex-start;
+    }
+    .news-col plans .plan{
+        padding:0;
+    }
+    .plan-item{
+        border:1px solid #DEDEDE;
+        margin-bottom:24px;
+    }
+    .plan .plans h3.title{
+        padding:24px 16px;
+    }
+    /* img icon */
+    .img-icon{
+        display:block;
+        position: fixed;
+        top:40%;
+        right:-19px;
+        z-index:4;
+
+    }
+    .content.animate-col .user-col{
+        width:223px !important;
+    }
+    .content .user-col{
+        transition: all 0.2s;
+    }
 }
-*/
-/* Mobile */
+@media only screen and (max-width:482px){
+    .table-courses .table-header .time h5{
+        font-size:1.3rem;
+        line-height:1.5rem;
+    }
+    .table-courses .table-header .time{
+        width:242px;
+    }
+}
 @media only screen and (max-width:414px){
     
 }
