@@ -327,6 +327,14 @@ nav .nav-menu .user .user-name{
     overflow: hidden;
     text-overflow: ellipsis;
 }
+.my-courses .course .info-course .title{
+    display: -webkit-box;
+    height: 42px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 .noti-box > img{
     width:18px;
     height:100%;
