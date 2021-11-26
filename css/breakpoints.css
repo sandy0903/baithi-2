@@ -1,0 +1,355 @@
+/* Desktop */
+@media only screen and (max-width:1920px){
+    
+}
+@media only screen and (max-width:1440px){
+
+    .moreInfo-col div .celender-course > img{
+        width:100%;
+    }
+    .content .user-col .user-img{
+        width:90%;
+        height:90%;
+    }
+    .table-courses .charts{
+        width:96%;
+    }
+}
+@media only screen and (max-width:1429px){
+    .user-infor-name .btn,
+    .user-col .user-achieve .btn{
+        font-size:1.5rem;
+    }  
+    .moreInfo-col div .celender-course{
+        width:90%;
+    }
+    .my-courses .course .info-course > p img{
+        width:80%;
+    }
+} 
+ @media only screen and (max-width:1405px){
+    .user-infor-name h3.name,
+    .live-timetable .live .title,
+    .moreInfo-col div .title,
+    nav .nav-menu .menu a{
+        font-size:1.8rem;
+        line-height:2.4rem;
+    }
+    .user-col .user-courses .btn,
+    .moreInfo-col div .gradient-border{
+        font-size:1.2rem;
+        line-height:1.4rem;
+    }
+    .user-col .user-achieve .btn,
+    .noti-box .label,
+    .noti-box .txt,
+    .user-col .user-achieve .title{
+        font-size:1.4rem;
+        line-height:1.6rem;
+    }
+    
+    
+}
+@media only screen and (max-width:1380px){
+    .boxes .box{
+        padding: 26px 25.5px;
+        
+    }
+    .boxes .box-coins h1,
+    .boxes .box-course h1{
+        font-size:4.5rem;
+        line-height:6rem;
+    }
+}
+@media only screen and (max-width:1366px){
+    .moreInfo-col div .celender-course>div p{
+        font-size:1.2rem;
+        line-height:1.4rem;
+    }
+    .my-courses .course .info-course .rate button,
+    .teachers p{
+        font-size:1rem;
+    }
+    .my-courses .course .info-course .title,
+    .teachers .name{
+        font-size:1.4rem;
+        line-height:1.8rem;
+    }
+    .teachers .name{
+        height:auto;
+    }
+    .teachers div >img{
+        width:100px;
+
+    }
+    
+    .banner-content .banner-txt{
+       
+        margin-top: 40px;
+        margin-left: 33px;
+        
+    }
+    .banner .banner-contact{
+        margin-bottom:3.9rem;
+    }
+    
+    
+}
+@media only screen and (max-width:1345px){
+    .user-infor-name h3.name,
+    .live-timetable .live .title,
+    .moreInfo-col div .title,
+    nav .nav-menu .menu a{
+        font-size:1.5rem;
+        line-height:2.1rem;
+    }
+    .exam-list .exam .exam-info p:not(:last-child){
+        margin:4px 0;
+    }
+    .user-infor-name .btn,
+    .user-col .user-achieve .btn{
+        font-size:1.3rem;
+    } 
+    .moreInfo-col div .celender-course>div p{
+        font-size:1rem;
+    }
+}
+@media only screen and (max-width:1293px){
+    .exam-body .exam-list .exam img{
+        width:30%;
+    }
+    .examination .exam-body >img{
+        width:45%;
+    }
+    .table-courses .table-header .time{
+        width:57%;
+    }
+    .moreInfo-col div .gradient-border{
+       
+        padding:5px 10px;
+    }
+    .user-col .user-courses .btn{
+        padding:10px 10px;
+    }
+    .banner .banner-txt .banner-title,
+     nav .nav-menu .menu a,
+     .user-infor-name h3.name,
+     .moreInfo-col div .title{
+     
+        
+        font-size:1.8rem;
+        line-height:2.4rem;
+    }
+    .banner .banner-contact{
+        margin-bottom:2.9rem;
+    }
+    .banner-content .banner-txt,
+    .content .news-col .banner:after{
+        height:50%
+    }
+    .banner .banner-img{
+       
+        margin-left:10px;
+    }
+    .banner-content .banner-txt, .content .news-col .banner:after{
+        width:100%
+    }
+    .banner-content{
+        width:60%;
+        margin-right:18px;
+    }
+    .boxes .box{
+        padding: 26px 25.5px;
+        
+    }
+    .boxes .box-coins h1,
+    .boxes .box-course h1{
+        font-size:3.8rem;
+        line-height:4.3rem;
+    }
+    .boxes .box img{
+        width:70px;
+        height:70px;
+    }
+    .live-timetable .live .title,
+    .exam-list .exam .exam-info h3,
+    .banner .banner-txt .banner-desc,
+    footer span, footer p{
+        font-size:1.3rem;
+        line-height:1.8rem;
+    }
+    .live-timetable .live p, .live-timetable .live .primary-bg,
+    .exam-list .exam .exam-info p{
+        font-size:1.1rem;
+        line-height:1.6rem;
+    }
+}
+@media only screen and (max-width:1224px){
+    .banner .banner-contact{
+        margin-left:20%;
+    }
+    .banner .banner-txt .banner-title, nav .nav-menu .menu a, .user-infor-name h3.name{
+        font-size:1.5rem;
+        line-height:1.8rem;
+    }
+    .user-infor-name .btn, .user-col .user-achieve .btn,
+   .user-col .user-achieve .title,
+   .my-courses .course .info-course .title, .teachers .name,
+   .plan .plans h3.title{
+        font-size:1.2rem;
+        line-height:1.4rem;
+    }
+    .my-courses .course>img{
+        width:180px;
+        height:auto;
+    }
+}
+@media only screen and (max-width:1180px){
+    .user-col .user-achieve .btn{
+        width:100%;
+        font-size:1rem;
+    }
+    .boxes .box{
+        padding: 16px 21.5px;
+    }
+    .boxes .box .title,
+    .moreInfo-col div .title{
+        font-size:1.5rem;
+        line-height:1.8rem;
+    }
+    .boxes .box-coins h1, .boxes .box-course h1{
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+    .teachers > div.flex{
+        flex-direction: column;
+    }
+    .teachers div >img{
+        width:30%;
+        margin-bottom:10px;
+    }
+    .live-timetable .live .title,
+    .live-timetable .live p.desc,
+    .moreInfo-col div .gradient-border{
+        font-size:1rem;
+    }
+}
+@media only screen and (max-width:1093px){
+    
+    .content .user-col{
+        display:none;
+        width:0;
+        transition:all 4s;
+        right:-100%;
+    } 
+    .hamburger-menu{
+        display:block;
+    }
+    footer .footer-bottom p{
+        width:70%;
+    }
+}
+@media only screen and (max-width:1093px){
+    .user{
+        display: none;
+    }
+    .boxes .box .title, .moreInfo-col div .title,
+    .friend-ls .friend-name >p,
+    div .celender-course .course-title{
+        font-size:1.3rem;
+        line-height:1.5rem;
+    }
+    .moreInfo-col div .celender-course > img{
+        margin-top:10px;
+    }
+    
+}
+/* Tablet */
+@media only screen and (max-width:953px){
+    .content .news-col{
+        margin-left:0;
+        margin-right:10px;
+    }
+    .content .moreInfo-col{
+
+    width: 35.431%;
+}
+    .live-timetable .live{
+        padding:6px;
+    }
+}
+@media only screen and (max-width:884px){
+    .live-timetable .live img{
+        width:30px;
+        height:30px;
+    }
+    .vertical-line{
+        margin:0 5px;
+    }
+    .moreInfo-col div .celender-course div>img{
+        width:10px;
+        height:10px;
+    }
+    .header-timetable p{
+        font-size:1rem;
+    }
+    .flex-column{
+        flex-direction: column;
+    }
+    .moreInfo-col div .celender{
+        padding:0px 0
+    }
+    .hori-line{
+        margin:auto;
+    }
+    
+}
+/*
+@media only screen and (max-width:768px){
+    .content .container{
+        flex-direction: column
+    }
+    .hamburger-menu{
+        position: inherit
+    }
+    header{
+        position: relative;
+    }
+    .content{
+        overflow-x:hidden;
+    }
+    .boxes .box .title, .moreInfo-col div .title,
+     div .celender-course .course-title,
+     {
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 2.6rem;
+    }
+    .moreInfo-col div .celender{
+        background:none;
+    }
+    .moreInfo-col div .celender-course>div p,
+    .moreInfo-col div .celender-course > img{
+        height:auto;
+    }
+    .friend-ls .friend-name >p,
+    .user-infor-name .btn, .user-col .user-achieve .btn, .user-col .user-achieve .title, .my-courses .course .info-course .title, .teachers .name, .plan .plans h3.title{
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 2.1rem;
+    }
+    .plan img{
+        width:auto;
+    }
+}
+*/
+/* Mobile */
+@media only screen and (max-width:414px){
+    
+}
+@media only screen and (max-width:375px){
+
+}
+@media only screen and (max-width:360px){
+    
+}

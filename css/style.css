@@ -1,0 +1,832 @@
+/* Header navbar */
+header{
+    position: fixed;
+    z-index:3;
+    left:0;
+    right:0;
+    background-color:#fff;
+    
+    height:85px;
+}
+header nav{
+    margin:0 9.375%;
+}
+
+nav .nav-logo .title{
+    font-size:0.6rem;
+    text-transform:uppercase;
+    color:var(--logoText-color);
+    font-weight:400;
+    margin-top:-10px;
+}
+
+nav .nav-menu .menu a{
+    font-size:2rem;
+    line-height:2.8rem;
+    font-weight:bold;
+    color:var(--primary-color);
+    padding-right:30px;
+}
+
+nav .nav-menu .user .cart,
+nav .nav-menu .user .bell,
+nav .nav-menu .user .arrow-down{
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    background-color:var(--icon-bg);
+
+}
+nav .nav-menu .user .cart img{ width:30px}
+nav .nav-menu .user .bell img{width:23px}
+nav .nav-menu .user .arrow-down img{width:10px}
+nav .nav-menu .user .user-name{
+    width:129px;
+    height:45px;
+    background-color:var(--icon-bg);
+    border-radius:30px;
+}
+.nav-menu .user .user-name p{
+    font-size:1.4rem;
+    line-height:2rem;
+    font-weight:800;
+}
+.nav-menu .user .user-name img{
+    margin:0 7px 0 4px;
+    width:36px;
+}
+.nav-menu .user div:not(:last-child){
+    margin-right:10px;
+}
+/*    Main content section */
+.content{
+    background-color:var(--body-bg);
+    padding-top:85px;
+
+}
+.content .container{
+    margin:1.9rem 3.6805% 0 3.6805%;
+
+}
+/*  User information column */
+.content .user-col{
+    background-color:#fff;
+    padding:24px 16px;
+    width:16.729%;
+    height:fit-content;
+    text-align: center;
+    border-radius:10px;
+}
+.content .user-col .user-img{
+    width:170px;
+    height:170px;
+    margin:auto;
+}
+.content .user-col .user-infor-name{
+    margin-top: 15px;
+    margin-bottom: 24px;
+}
+.user-infor-name h3.name{
+    font-size: 2rem;
+    
+    font-weight:700;
+    line-height:2.6rem;
+    color:var(--primary-color);
+   
+}
+.user-infor-name .desc{
+    font-size:1.6rem;
+    font-weight:600;
+    line-height:2rem;
+    color:var(--desc-color)
+}
+.user-infor-name .btn{
+    width:100%;
+    font-size:1.8rem;
+    line-height:2.3rem;
+    font-weight:700;
+    border:1px solid #BAD4FF;
+    border-radius:30px;
+    padding:11px 16px;
+    margin-top:15px;
+}
+.user-col .user-courses{
+    
+    margin:0 9.5px;
+    margin-bottom:14px;
+}
+.user-col .user-courses .btn{
+    width:100%;
+    padding:9px 10px;
+    text-align:left;
+    
+    font-size:1.4rem;
+    line-height:1.6rem;
+    font-weight:600;
+    color:#363E57;
+
+    border-radius:5px;
+    border:none;
+    background-color:var(--button-bg);
+    margin-bottom:10px;
+}
+.user-col .user-achieve{
+    border-radius: 10px;
+    box-shadow: 0 0 11px rgb(0,0,0,8%);
+    padding-top:24px;
+    padding-left:20px;
+    padding-right:17px;
+    padding-bottom:15.32px;
+}
+.user-col .user-achieve .title{
+    font-weight:900;
+    font-size:1.8rem;
+    line-height:2.3rem;
+    text-align:left;
+    background: var(--linear-gr);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.user-col .user-achieve p{
+    font-size:1.2rem;
+    font-weight:400;
+    color:#1F1F1F;
+    text-align:left;    
+    margin-left: 3px;
+}
+.user-col .user-achieve img{
+    margin-top:32px;
+    margin-bottom:32px;
+}
+.user-col .user-achieve .btn{
+    font-size:1.8rem;
+    line-height:2.3rem;
+    font-weight:700;
+    color:#0E564D;
+    border:1px solid #0E564D;
+    padding:11px 15px;
+    border-radius:30px;
+}
+/* News about courses  */
+
+.content .news-col{
+    flex:1;
+    margin:0 32px;
+    
+}
+.content .news-col .banner{
+    background-image: var(--linear-gr-bg);
+    border-radius:10px;
+    position:relative;
+   
+}
+.content .news-col .banner:after{
+    content:"";
+    width:500px;
+    height:100%;
+    z-index:2;
+    position:absolute;
+    background-image:url("../img/banner-bg.png");
+    background-repeat: no-repeat;
+    opacity:0.5;
+}
+
+.banner-content .banner-txt{
+    width:411px;
+    height:111px;
+    margin-top:50px;
+    margin-left:43px;
+    margin-right:11px;
+}
+.banner .banner-txt .banner-title{
+    font-size:3rem;
+    font-weight:400;
+    font-family: 'Lobster', cursive;
+    color:#fff;
+}
+.banner .banner-txt .banner-desc{
+    font-size:1.6rem;
+    font-weight:400;
+    font-family: 'Roboto', sans-serif;
+    color:#fff;
+}
+.banner .banner-contact{
+    margin-top:1.3rem;
+    margin-bottom:4.9rem;
+    margin-left:110px;
+}
+.banner .banner-contact img{
+    width:14px;
+    height:14px;
+}
+.banner .banner-contact p{
+    margin-right:30px;
+}
+.banner .banner-contact a{
+    color:#fff;
+    font-size:1.2rem;
+    font-weight:700;
+}
+
+.banner .banner-img{
+    width:30%;
+    margin-top:13px;
+}
+
+/* boxes */
+.boxes{
+    margin:16px 0;
+}
+.boxes .box{
+    padding:40px 39.5px;
+    border-radius:10px;
+    background-color:#fff;
+}
+.boxes .box-coins{
+    border:1px solid #F3C72B;
+}
+.boxes .box-coins h1{
+    font-size:5rem;
+    line-height:6.5rem;
+    font-weight:700;
+    color:#F3C72B;
+    /* border: */
+}
+.boxes .box-course{
+    border:1px solid #16671E;
+}
+.boxes .box-course h1{
+    font-size:5rem;
+    line-height:6.5rem;
+    font-weight:700;
+    color:#16671E;
+
+}
+.boxes .box img{
+    width:90px;
+    height:90px;
+    margin-right:2rem;
+    
+}
+.boxes .box .title{
+    color:#193769;
+    font-size:2.4rem;
+    line-height:3.3rem;
+    font-weight:700;
+}
+/* notification  */
+.noti{
+    padding:24px 16px;
+    background-color:#fff;
+    border-radius:10px;
+}
+.noti .title{
+    font-size:2rem;
+    line-height:2.6rem;
+    font-weight:700;
+}
+.noti-box:not(:last-child){
+    margin:8px 0;
+}
+.noti-box .label{
+    font-size:1.6rem;
+    line-height:2.2rem;
+    font-weight:700;
+    color:#4063E0;
+}
+.noti-box .txt{
+    font-size:1.6rem;
+    line-height:2rem;
+    color:#1F1F1F;
+    font-weight:400;
+}
+.noti-box > img{
+    width:18px;
+    height:100%;
+    margin-right:4px;
+}
+.table-courses{
+    background-color:#fff;
+    margin-top:16px;
+}
+.table-courses .table-header{
+    padding:16px;
+
+}
+.table-courses .table-header h3{
+    font-size:2rem;
+    line-height:2.6rem;
+    font-weight:700;
+}
+.table-courses .table-header .time{
+    border:1px solid #D9D9D9;
+    width:400px;
+    padding:8px 12px;
+}
+.table-courses .table-header .time h5{
+    font-size:1.6rem;
+    font-weight:400;
+    width:163px;
+}
+.table-courses .table-header .time img{
+    width:15px;
+    height:15px;
+    margin:0 8px;
+}
+.table-courses .chart-wrapper{
+    width: 100%;
+    background-color: #fff;
+    height: 434px;
+    position: relative;
+
+}
+.table-courses .charts{
+    position: absolute;
+    height: 418px;
+    left: 16px;
+    bottom: 16px;
+}
+/* Maintain studying for course */
+
+.maintain-courses{
+    background-color:#fff;
+    border-radius:10px;
+    padding:24px 32px 24px 16px;
+    margin-top:16px;
+
+}
+.maintain-courses .title{
+    font-size:2rem;
+    font-weight:400;
+    line-height:2.6rem;
+    margin-bottom:24px;
+
+}
+.maintain-courses .title span{
+    font-weight:700;
+}
+.maintain-courses .noti-box:not(:last-child){
+    width:100%;
+    margin:16px 0;
+
+}
+.maintain-courses .noti-box p{
+    margin:0 16px;
+    font-size:1.8rem;
+    font-weight:400;
+    line-height:2.3rem;
+    flex:1;
+    
+
+}
+.maintain-courses .noti-box .primary-bg{
+    font-size:1.4rem;
+    font-weight:400;
+    line-height:1.8rem;
+    
+    padding:5px 10px;
+   
+}
+.my-courses{
+    margin:16px 0;
+    background-color:#fff;
+    padding:24px 16px ;
+    border-radius:10px;
+}
+
+.my-courses .header-course h2{
+    font-size:2rem;
+    font-weight:400;
+    line-height:2.6rem;
+    
+}
+.my-courses .header-course h2 span{
+    font-weight:700;
+}
+.my-courses .header-course img{
+    width:16px;
+    height:16px;
+    transform: rotate(-90deg)
+}
+.my-courses .header-course p{
+    font-size:1.4rem;
+    font-weight:400;
+    line-height:1.8rem;
+    color:#0075FF;
+}
+.my-courses .course{
+    padding:15px;
+    border:1px solid #D6D6D6;
+    border-radius:5px;
+    
+}
+.my-courses .course:not(:last-child){
+    margin:24px 0;
+}
+.my-courses .course>img{
+    width:215px;
+    height:144px;
+}
+.my-courses .course .info-course {
+    margin-right:8px;
+}
+.my-courses .course .info-course > p{
+    font-size:1.4rem;
+    font-weight:600;
+    line-height:1.8rem;
+}
+.my-courses .course .info-course > p img{
+    margin-left:4px;
+}
+.my-courses .course .info-course .title{
+    font-size:1.6rem;
+    font-weight:600;
+    line-height:2rem;
+    margin:8px 0;
+    color:#1F1F1F;
+}
+.my-courses .course .info-course .course-price{
+    font-size:1.6rem;
+    font-weight:400;
+    line-height:2rem;
+    margin-bottom:24px ;
+}
+.my-courses .course .info-course .rate img{
+    width:18px;
+    height:18px;
+    margin-right:4px;
+    
+}
+.my-courses .course .info-course .rate button{
+    padding:4px 8px;
+    border:none;
+    border-radius:5px;
+}
+.my-courses .course .info-course .rate .primary-bg{
+    margin:0 16px 0 24px;
+}
+
+/* examination  */
+.examination{
+    background-color:#fff;
+    padding:24px 16px ;
+    border-radius:10px;
+
+}
+.examination .header-examination{
+    margin-bottom:24px ;
+
+}
+.examination .header-examination h2{
+    font-size:2rem;
+    font-weight:400;
+    line-height:2.6rem;
+    
+}
+.examination .header-examination h2 span{
+    font-weight:700;
+}
+.examination .header-examination img{
+    width:16px;
+    height:16px;
+    transform: rotate(-90deg)
+}
+.examination .header-examination p{
+    font-size:1.4rem;
+    font-weight:400;
+    line-height:1.8rem;
+    color:#0075FF;
+}
+.examination .exam-body >img{
+    width:276px;
+    height:170px
+}
+.exam-body .exam-list .exam:not(:last-child){
+    margin-bottom:24px ;
+}
+.exam-body .exam-list .exam img{
+    width:130px;
+    margin-right:24px ;
+}
+.exam-list .exam .exam-info h3{
+    font-size:1.6rem;
+    font-weight:700;
+    line-height:2rem;
+}
+.exam-list .exam .exam-info p{
+    font-size:1.4rem;
+    font-weight:400;
+    line-height:1.8rem;
+    color:#1F1F1F;
+}
+.exam-list .exam .exam-info p:not(:last-child){
+    margin:8px 0;
+}
+
+/* Timetable live */
+.live-timetable{
+    background-color:#fff;
+    padding:24px 16px ;
+    border-radius:10px;
+    margin:16px 0;
+}
+.live-timetable .header-timetable{
+    margin-bottom:24px ;
+
+}
+.live-timetable .header-timetable h2{
+    font-size:2rem;
+    font-weight:400;
+    line-height:2.6rem;
+    
+}
+.live-timetable .header-timetable h2 span{
+    font-weight:700;
+}
+.header-timetable img{
+    width:16px;
+    height:16px;
+    transform: rotate(-90deg)
+}
+.header-timetable p{
+    font-size:1.4rem;
+    font-weight:400;
+    line-height:1.8rem;
+    color:#0075FF;
+}
+.live-timetable .live{
+    padding:16px;
+    border:1px solid #E1E1E1;
+    border-radius:5px;
+    border-left:4px solid #0FBB4E;
+}
+.live-timetable .live:not(:last-child){
+    margin-bottom:16px;
+}
+.live-timetable .live .title{
+    font-size:2rem;
+    line-height:2.6rem;
+    font-weight:700;
+    margin-bottom:8px;
+}
+.live-timetable .live p,
+.live-timetable .live .primary-bg{
+    font-size:1.4rem;
+    line-height:1.8rem;
+    font-weight:400;
+}
+.live-timetable .live p.desc{
+    font-size:1.2rem;
+    line-height:1.5rem;
+    font-weight:400;
+    color:#0061F2;
+    padding:3px 6px;
+    background-color:#DAE9FF;
+    border-radius:5px;
+}
+.live-timetable .live .line{
+    height:61px;
+    margin:0 10.8px;
+}
+.live-timetable .live .primary-bg{
+    padding:5px 10px;
+    margin-left:16px;
+
+}
+.live-timetable .live img{
+    width:48px;
+    height:48px;
+    margin-right:10.8px;
+}
+.live-timetable .vertical-line{
+    margin:0 10.8px !important;
+}
+.ml-8 p{
+    text-align: center
+}
+/* More about infor  */
+.content .moreInfo-col{
+    width:25.431%;
+}
+.moreInfo-col .header-timetable{
+    margin-bottom:8px;
+}
+.content .moreInfo-col > div{
+    background-color:#fff;
+    border-radius:10px;
+    padding:24px 16px;
+    margin-bottom:16px;
+}
+.moreInfo-col div .title{
+    font-size:2rem;
+    line-height:2.6rem;
+    font-weight:700;
+    
+}
+.moreInfo-col div .desc{
+    font-size:1.2rem;
+    line-height:1.5rem;
+    font-weight:400;
+    color:#626262;
+}
+.moreInfo-col div .gradient-border{
+    padding:10px 20px;
+    border:1px solid #007739;
+    color:#007739;
+    margin-left:16px;
+    font-size:1.4rem;
+    line-height:1.8rem;
+    font-weight:400;
+    border-radius:5px;
+    margin-top:24px;
+    background-color:#fff;
+}
+.moreInfo-col div .celender{
+    background-color:rgba(1,167,2,0.16);
+    
+    border-radius:5px;
+    padding:22px 0;
+    color: #007739;
+    text-align: center;
+    margin-right:16px;
+}
+.moreInfo-col div .celender p{
+    font-size:1.2rem;
+    line-height:1.5rem;
+    font-weight:600;
+    margin:7px 0;
+
+}
+.moreInfo-col div .celender span{
+    width:100%;
+    font-size:1.9rem;
+    line-height:1.9rem;
+    font-weight:700;
+
+}
+.moreInfo-col div .celender-course{
+    width:100%;
+}
+.moreInfo-col div .celender-course img{
+    width:20px;
+    height:20px;
+    margin-right:11px;
+}
+.moreInfo-col div .celender-course > img{
+    width:auto;
+    height:auto;
+}
+div .celender-course .course-title{
+    font-size:1.6rem;
+    line-height:2rem;
+    font-weight:700;
+}
+.moreInfo-col div .celender-course>div{
+    margin:8px 0;
+}
+.moreInfo-col div .celender-course>div p{
+    font-size:1.4rem;
+    line-height:1.8rem;
+    font-weight:400;
+    height:54px
+}
+.friend-ls img{
+    width:48px;
+    height:48px;
+    margin-right:8px;
+}
+.friend-ls>div{
+    margin-bottom:8px;
+}
+.friend-ls .friend-name >p{
+    font-size:1.6rem;
+    line-height:2rem;
+    font-weight:600;
+    margin-bottom:4px;
+}
+.friend-ls .friend-name div p:last-child{
+    font-size:1.2rem;
+    line-height:1.5rem;
+    font-weight:400;
+    
+}
+.friend-ls .active .friend-name div p:last-child{
+    color:rgba(14, 191, 70, 1);
+}
+/* Plan  */
+
+.plan div.header-timetable{
+    margin-bottom:16px;
+}
+.plan img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.plan .plans h3.title{
+    font-size:1.6rem;
+    line-height:2rem;
+    font-weight:700;
+    padding:10px;
+}
+/* teachers */
+.teachers div div p img{
+    width:16px;
+    height:16px;
+    
+}
+.teachers > div{
+    margin-bottom:8px;
+}
+
+.teachers .name{
+    font-size:1.6rem;
+    line-height:2rem;
+    font-weight:700;
+    height:40px;
+}
+.teachers p{
+    font-size:1.3rem;
+    line-height:1.6rem;
+    font-weight:400;
+}
+.teachers .ml-8 p{
+    text-align:left
+}
+
+/* Footer */
+footer{
+    
+    margin-top:39px;
+}
+footer .container{
+    padding:0 9.375%;
+    background-color:#fff;
+    
+}
+footer .col-4 .footer-logo{
+    width:50%;
+}
+footer h1,
+footer h3{
+    color:rgba(14, 86, 77, 1);
+    font-size:1.1rem;
+    line-height:1.5rem;
+    font-weight:800;
+    margin:4px 0; 
+    
+}
+footer .desc{
+    color:rgba(82, 181, 83, 1) ;
+    font-weight:700;
+    font-size:1.1rem;
+    line-height:1.5rem;
+    
+}
+footer h2{
+    color:rgba(4, 148, 53, 1);
+    font-size:1.6rem;
+    line-height:2.5rem;
+    font-weight:700;
+   
+}
+footer .title{
+    margin-bottom:16px;
+}
+
+footer .footer-bottom img{
+    width:32px;
+    height:32px;
+    background-color:#fff;
+    border-radius:3px;
+    
+}
+footer span,
+footer p{
+    color:rgba(112, 112, 112, 1);
+    font-size:1.6rem;
+    line-height:2.5rem;
+    font-weight:400;
+}
+footer .footer-bottom{
+    background-color:#049435;
+    
+}
+footer .footer-bottom .container{
+    background-color:#049435;
+    height:94px;
+    
+    
+}
+footer .footer-bottom p{
+    font-weight:600 ;
+    color:#fff;
+}
+footer .footer-bottom .social-icon  img{
+    margin-left: 20px;
+}
+footer .footer-bottom .social-icon .youtube-icon{
+    width:50px;
+    height:33px;
+    border-radius:9px;
+}
+

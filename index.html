@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dashboard Website</title>
+    <link rel="stylesheet" href="./css/base.css"> 
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/chart.css">
+    <link rel="stylesheet" href="./css/breakpoints.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/charts.css/dist/charts.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Mulish:wght@400;700;800&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Mulish:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+
+</head>
+<body>
+    <!-- header  -->
+    <header>
+        <nav class="flex ai-center jc-sb">
+            <div class="nav-logo">
+                <img src="./img/logo 11 1.png" alt="logo-website">
+                <h3 class="title">Tổ chức giáo dục quốc tế smart edu</h3>
+            </div>
+            <div class="nav-menu flex ai-center">
+                <div class="menu">
+                    <ul class="flex">
+                        <li><a href="#">Trang chủ</a></li>
+                        <li><a href="#">Khóa học</a></li>
+                        <li><a href="#">Tìm chuyên gia</a></li>
+                        <li><a href="#">Ưu đãi</a></li>
+                    </ul>
+                </div>
+
+                <div class="user flex ai-center ">
+                    <div class="cart flex ai-center  jc-center"><img src="./img/Noti Active.png" alt="noti-icon"></div>
+                    
+                    <div class="user-name flex ai-center">
+                        <img src="./img/user-img.png" alt="uer-img">
+                        <p>lanlai121</p>
+                    </div>
+                    <div class="bell flex ai-center jc-center"><img src="./img/active.png" alt="cart"></div>
+                    <div class="arrow-down flex ai-center jc-center"><img src="./img/down.png" alt="arrow-down-icon"></div>
+                    
+                </div>
+                <div class="hamburger-menu ">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="overlay"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- main content -->
+    <section class="content ">
+        <div class="container flex jc-sb">
+    <!-- user column ( information of user ) -->
+            <div class="user-col ">
+                <div class="user-info">
+                <div class="user-img"><img src="./img/Rectangle 557.png" alt="user-img"></div>
+                <div class="user-infor-name">
+                    <h3 class="name">Nguyễn Tuyết Lan</h3>
+                    <p class="desc">Học viên</p>
+                    <p class="btn">Thông tin cá nhân</p>
+                </div>
+                </div>
+                <div class="user-courses">
+                    <button class="btn active-btn">Trong tổng quan</button>
+                    <button class="btn">Khóa học của tôi</button>
+                    <button class="btn">Khóa học yêu thích</button>
+                    <button class="btn">Lịch live của tôi</button>
+                    <button class="btn">Họp trực tuyến</button>
+                    <button class="btn">Khóa học đóng góp</button>
+                    <button class="btn">Lịch học offline</button>
+                    <button class="btn">Kì thi của tôi</button>
+                    <button class="btn">Chứng chỉ của tôi</button>
+                    <button class="btn">Lịch sử giao dịch</button>
+                    <button class="btn">Quá trình học tập</button>
+                </div>
+                <div class="user-achieve">
+                    <h3 class="title">HỒ SƠ HỌC TẬP</h3>
+                    <p>Xem thành tích bạn đạt được với SmartEdu</p>
+                    <img src="./img/Group.png" alt="animation-img">
+                    <button class="btn active-border">Truy cập ngay</button>
+
+                </div>
+            </div>
+    <!-- news of courses, examination, live -->
+            <div class="news-col">
+    <!-- banner -->
+                <div class="banner flex">
+                    <div class="banner-content">
+                    <div class="banner-txt">
+                            <h2 class="banner-title">Đây là hình để quảng cáo - all học viên đều nhìn thấy. admin chọn</h2>
+                            <p class="banner-desc">Nếu ko có quảng cáo thì để hình gì cũng đc - click sang link admin set</p>
+                    </div>
+                        <div class="banner-contact flex">
+                            <p class="flex ai-center" >
+                                <img src="./img/phone-icon.png" alt="phone icon">
+                                <a href="tel:0943992979"> 0943992979</a>
+                            </p>
+                            <p class="flex ai-center">
+                                <img src="./img/website-icon.png" alt="phone icon">
+                                <a href="#">smart-edu.vn</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="banner-img">
+                        <img src="./img/Group.png" alt="banner image">
+                    </div>
+                </div>
+    <!-- mark, coins -->
+                <div class="boxes flex ai-center jc-sb">
+                    <div class="box box-coins flex ai-center">
+                        <img src="./img/coins.png" alt="coins images of yellow box">
+                        <div class="box-txt">
+                            <h3 class="title">SE xu</h3>
+                            <h1 class="coins">1500E</h1>
+                        </div>
+                    </div>
+                    <div class="box box-course flex ai-center">
+                        <img src="./img/course.png" alt="course images of yellow box">
+                        <div class="box-txt">
+                            <h3 class="title">Số khóa học</h3>
+                            <h1 class="course">12</h1>
+                        </div>
+                    </div>
+                </div>
+    <!-- information  -->
+                <div class="noti">
+                    <h3 class="title">Thông báo nội bộ</h3>
+                    <div class="noti-box flex">
+                        <img src="img/icon-news.png">
+                        <div class="noti-text">
+                            <p class="label">Thông báo họp quý IV/2021</p>
+                            <p class="txt">Hội đồng quản trị xin trân trọng thông báo và kính mời Qúy Cổ đông tham dự Đại Hội cổ đông năm 20120. tối đa 2 dòng tối đa ...</p>
+                        </div>
+                    </div>
+                    <div class="noti-box flex">
+                        <img src="img/icon-news.png">
+                        <div class="noti-text">
+                            <p class="label">Lịch nghỉ tết dương lịch 01/01/2022</p>
+                            <p class="txt">Khoản 1 Điều 112 Bộ luật Lao động năm 2019 đã quy định cụ thể về thời gian nghỉ Tết Dương lịch như sau:</p>
+                        </div>
+                    </div>
+                </div>
+    <!-- chart to show infor of courses -->
+                <div class="table-courses">
+                    <div class="table-header flex jc-sb">
+                        <h3>Khóa học đóng góp</h3>
+                        <div class="time flex ai-center">
+                            <h5>01/11/2021</h5>
+                            <img src="./img/SwapRight.png" alt="right-icon">
+                            <h5>01/12/2021</h5>
+                            <img src="./img/Vector (1).png" alt="">
+                        </div>
+                    </div>
+                    <!-- <div class="chart-wrapper">
+                        <img src="./img/Group 625165.png" class="charts" alt="charts">
+                    </div> -->
+                    <div id="my-chart">
+
+                        <table class="charts-css column hide-data show-labels data-spacing-8 datasets-spacing-4">
+                            <tbody>
+                                    <tr>
+                                            <th scope="row"> Kỹ năng... </th>
+                                            <td style="--size: 0.32;">
+                                                 <span class="data"> 30 </span> 
+                                                 <span class="tooltip flex ai-center jc-center"> Kỹ năng đứng trước đám đông <br> Hoàn thành: 38%</span>
+
+                                            </td>
+                                    </tr>
+                                    <tr>
+                                            <th scope="row"> Thực hàn... </th>
+                                            <td style="--size: 0.73;"> 
+                                                <span class="data"> 50 </span> 
+                                                <span class="tooltip flex ai-center jc-center"> Kỹ năng đứng trước đám đông <br> Hoàn thành: 38%</span>
+                                            </td>
+                                    </tr>
+                                    <tr>
+                                            <th scope="row"> Kỹ năng. </th>
+                                            <td style="--size: 0.32;">
+                                                    <span class="data"> 50 </span> 
+                                                    <span class="tooltip flex ai-center jc-center"> Kỹ năng đứng trước đám đông <br> Hoàn thành: 38%</span>
+                                            </td>
+                                    </tr>
+                                    <tr>
+                                            <th scope="row"> Lý thuyết... </th>
+                                            <td style="--size: 0.65;"> 
+                                                    <span class="data"> 50 </span> 
+                                                    <span class="tooltip flex ai-center jc-center"> Kỹ năng đứng trước đám đông <br> Hoàn thành: 38%</span>
+                                             </td>
+                                    </tr>
+                                    <tr>
+                                            <th scope="row"> Nhập môn... </th>
+                                            <td style="--size: 0.43;"> 
+                                                <span class="data"> 50 </span> 
+                                                <span class="tooltip flex ai-center jc-center"> Kỹ năng đứng trước đám đông <br> Hoàn thành: 38%</span>
+                                            </td>
+                                    </tr>
+                                    <tr>
+                                            <th scope="row"> Kỹ năng... </th>
+                                            <td style="--size: 0.83;"> 
+                                                 <span class="data"> 50 </span> 
+                                                <span class="tooltip flex ai-center jc-center"> Kỹ năng đứng trước đám đông <br> Hoàn thành: 38%</span> </td>
+                                    </tr>
+                                    <tr>
+                                            <th scope="row"> Thực hàn... </th>
+                                            <td style="--size:0.53;">  
+                                                <span class="data"> 50 </span> 
+                                                <span class="tooltip flex ai-center jc-center"> Kỹ năng đứng trước đám đông <br> Hoàn thành: 38%</span>
+                                            </td>
+                                    </tr>
+                                    <tr>
+                                            <th scope="row">Thực hàn... </th>
+                                            <td style="--size: 0.37;">  
+                                                <span class="data"> 50 </span> 
+                                                <span class="tooltip flex ai-center jc-center"> Kỹ năng đứng trước đám đông <br> Hoàn thành: 38%</span>
+                                            </td>
+                                    </tr>
+                                    <tr>
+                                            <th scope="row">Thực hàn... </th>
+                                            <td style="--size:0.5;">  
+                                                <span class="data"> 50 </span> 
+                                                <span class="tooltip flex ai-center jc-center"> Kỹ năng đứng trước đám đông <br> Hoàn thành: 38%</span>
+                                             </td>
+                                    </tr>
+                                    <tr>
+                                            <th scope="row"> Thực hàn... </th>
+                                            <td style="--size: 0.3;">  
+                                                <span class="data"> 50 </span> 
+                                                <span class="tooltip flex ai-center jc-center"> Kỹ năng đứng trước đám đông <br> Hoàn thành: 38%</span>
+                                             </td>
+                                    </tr>
+                                    
+                            </tbody>
+                        </table>
+                          
+                    </div>
+                </div>
+    <!-- maintain enrolled course -->
+                <div class="maintain-courses hidden">
+                    <h3 class="title"><span>Duy trì học tập -</span> hiện tất cả các khóa đang học dở: 1-99%</h3>
+                    <div class="noti-box flex ai-center">
+                        <div class="process-icon">
+                            <img src="img/process.png">
+                        </div>
+                        <p>Kỹ năng lập kế hoạch và thực thi công việc hiệu quả (Planing skills)</p>
+                        <button class="primary-bg">Học tiếp</button>
+                    </div>
+                    <div class="noti-box flex ai-center">
+                        <div class="process-icon">
+                            <img src="img/process.png">
+                        </div>
+                        <p>Tối đa 2 dòng kế hoạch và thực thi công việc hiệu quả (Planing skills ...</p>
+                        <button class="primary-bg">Học tiếp</button>
+                    </div>
+                </div>
+    <!--  my course -->
+                <div class="my-courses">
+                    <div class="header-course flex ai-center jc-sb">
+                            <h2><span>Khóa học của tôi -</span> tối đa 2 </h2>
+                            <p class="flex ai-center"><span>Tất cả</span> <img src="./img/down.png" alt=""></p>
+                    </div>
+                    <div class="course flex ai-center">
+                        <div class="info-course ">
+                            <p class="flex ai-center">
+                                0%
+                                <img src="./img/yellow-bar.png" alt="">
+                            </p>
+                            <h3 class="title">
+                                Kỹ năng lập kế hoạch và thực thi công việc hiệu quả (Planing skills) tối đa 2 dong, chiều cao cứng
+                            </h3>
+                            <div class="course-price flex ai-center">
+                                <p class="line-through">2.100.000 đ</p>
+                                <p class="active-price">840.000 đ</p>
+                            </div>
+                            <div class="rate flex ai-center">
+                                <img src="./img/star.png" alt=""><span>0</span>
+                                <div class="vertical-line"></div>
+                                <img src="./img/Detail Cousre.png" alt=""><span>8</span>
+                                <button class="primary-bg">Có lớp offline</button>
+                                <button class="yellow-bg">Chứng chỉ quốc tế</button>
+
+                            </div>
+                        </div>
+                        <img src="./img/Frame 625750.png" alt="">
+                    </div>
+                    <div class="course flex ai-center">
+                        <div class="info-course">
+                            <p class="flex ai-center">
+                                100%
+                                <img src="./img/blue-bar.png" alt="">
+                            </p>
+                            <h3 class="title">
+                                Chiến lược công ty dành cho lãnh đạo
+                            </h3>
+                            <div class="course-price flex ai-center">
+                                <p class="line-through">2.100.000 đ</p>
+                                <p class="active-price">840.000 đ</p>
+                            </div>
+                            <div class="rate flex ai-center">
+                                <img src="./img/star.png" alt=""><span>0</span>
+                                <div class="vertical-line"></div>
+                                <img src="./img/Detail Cousre.png" alt=""><span>8</span>
+                                <button class="primary-bg">Có lớp offline</button>
+                                <button class="pink-bg">Độc quyền doanh nghiệp</button>
+
+                            </div>
+                        </div>
+                        <img src="./img/Frame 625750 (1).png" alt="">
+                    </div>
+                    <div class="course flex ai-center">
+                            <div class="info-course ">
+                                <p class="flex ai-center">
+                                    0%
+                                    <img src="./img/yellow-bar.png" alt="">
+                                </p>
+                                <h3 class="title">
+                                    Kỹ năng lập kế hoạch và thực thi công việc hiệu quả (Planing skills) tối đa 2 dong, chiều cao cứng
+                                </h3>
+                                <div class="course-price flex ai-center">
+                                    <p class="line-through">2.100.000 đ</p>
+                                    <p class="active-price">840.000 đ</p>
+                                </div>
+                                <div class="rate flex ai-center">
+                                    <img src="./img/star.png" alt=""><span>0</span>
+                                    <div class="vertical-line"></div>
+                                    <img src="./img/Detail Cousre.png" alt=""><span>8</span>
+                                    <button class="primary-bg">Có lớp offline</button>
+                                    <button class="yellow-bg">Chứng chỉ quốc tế</button>
+    
+                                </div>
+                            </div>
+                            <img src="./img/Frame 625750.png" alt="">
+                    </div>
+                    <div class="course flex ai-center">
+                            <div class="info-course">
+                                <p class="flex ai-center">
+                                    100%
+                                    <img src="./img/blue-bar.png" alt="">
+                                </p>
+                                <h3 class="title">
+                                    Chiến lược công ty dành cho lãnh đạo
+                                </h3>
+                                <div class="course-price flex ai-center">
+                                    <p class="line-through">2.100.000 đ</p>
+                                    <p class="active-price">840.000 đ</p>
+                                </div>
+                                <div class="rate flex ai-center">
+                                    <img src="./img/star.png" alt=""><span>0</span>
+                                    <div class="vertical-line"></div>
+                                    <img src="./img/Detail Cousre.png" alt=""><span>8</span>
+                                    <button class="primary-bg">Có lớp offline</button>
+                                    <button class="pink-bg">Độc quyền doanh nghiệp</button>
+    
+                                </div>
+                            </div>
+                            <img src="./img/Frame 625750 (1).png" alt="">
+                    </div>
+                </div>
+    <!-- exam schedual -->
+                <div class="examination">
+                    <div class="header-examination flex ai-center jc-sb">
+                        <h2><span>Kì thi sắp đến-</span> tối đa 2 </h2>
+                        <p class="flex ai-center"><span>Tất cả</span> <img src="./img/down.png" alt=""></p>
+                    </div>
+                    <div class="exam-body flex ai-center jc-sb">
+                        <div class="exam-list">
+                            <div class="exam flex ai-center">
+                                <img src="./img/12.png" alt="">
+                                <div class="exam-info">
+                                    <h3>Thi tin học đầu vào</h3>
+                                    <p>Thời gian: 45 phút</p>
+                                    <p>Bắt đầu lúc 09:00 - 20.12.2021</p>
+                                </div>
+                            </div>
+                            <div class="exam flex ai-center">
+                                <img src="./img/12.png" alt="">
+                                    <div class="exam-info">
+                                        <h3>Thi tin học đầu vào</h3>
+                                        <p>Thời gian: 45 phút</p>
+                                        <p>Bắt đầu lúc 09:00 - 20.12.2021</p>
+                                    </div>
+                            </div>
+                        </div>
+                        <img src="./img/OBJECTS.png" alt="">
+                    </div>
+                        
+                </div>
+    <!-- live-timetable -->
+                <div class="live-timetable">
+                        <div class="header-timetable flex ai-center jc-sb">
+                            <h2><span>Kì thi sắp đến-</span> tối đa 2 </h2>
+                            <p class="flex ai-center"><span>Tất cả</span> <img src="./img/down.png" alt=""></p>
+                        </div>
+                        <div class="list-live">
+                            <div class="live flex ai-center jc-sb">
+                                <div  class="ml-8">
+                                    <h3 class="title">03:30 P.M</h3>
+                                    <p>30 phút nữa</p>
+                                </div>
+                                <div class="vertical-line"></div>
+                                <div class="flex ai-center">
+                                    <img src="./img/Ellipse 306 (1).png" alt="">
+                                    <div class="line-host">
+                                            <h3 class="title">Thầy Lê Duy Quang</h3>
+                                            <p>Giảng viên IFA</p>
+                                    </div>
+                                </div>
+                                <div class=" vertical-line"></div>
+
+                                <div>
+                                    <div class="title">Ngữ pháp</div>
+                                    <p class="desc">Đã chấp nhận</p>
+
+                                </div>
+                                <button class="primary-bg">Tham gia ngay</button>
+                            </div>
+                            <div class="live flex ai-center jc-sb">
+                                    <div class="ml-8">
+                                            <h3 class="title">03:30 P.M</h3>
+                                            <p>30 phút nữa</p>
+                                        </div>
+                                        <div class="vertical-line"></div>
+                                        <div class="flex ai-center">
+                                            <img src="./img/Ellipse 306 (1).png" alt="">
+                                            <div class="line-host">
+                                                    <h3 class="title">Thầy Lê Duy Quang</h3>
+                                                    <p>Giảng viên IFA</p>
+                                            </div>
+                                        </div>
+                                        <div class="vertical-line"></div>
+        
+                                        <div>
+                                            <div class="title">Ngữ pháp</div>
+                                            <p class="desc">Đã chấp nhận</p>
+        
+                                        </div>
+                                        <button class="primary-bg">Tham gia ngay</button>
+                            </div>
+                        </div>
+                </div>
+            </div>
+    <!-- More information -->
+            <div class="moreInfo-col">
+                <div>
+                    <p class="title">
+                        Khám phá thêm
+                    </p>
+                    <p class="desc">Cùng SmartEdu chinh phục tri thức nhân loại</p>
+                    <div class="flex ai-center">
+                        <button class="gradient-border">Tìm giảng viên</button>
+                        <button class="gradient-border">Tìm khóa học</button>
+                    </div>
+                </div>
+                <div>
+                    <div class="header-timetable flex ai-center jc-sb">
+                                <h3 class="title">Bảng tin hệ thống</h3>
+                                <p class="flex ai-center"><span>Tất cả</span> <img src="./img/down.png" alt=""></p>
+                    </div>
+                    <div class="noti-box flex">
+                        <img src="img/icon-news.png">
+                        <div class="noti-text">
+                            <p class="label">Đơn hàng đã được tiếp nhận</p>
+                            <p class="txt">Đơn hàng của bạn đang được xử lý, mã đơn hàng ord5901067527570...</p>
+                        </div>
+                    </div>
+                    <div class="noti-box flex">
+                            <img src="img/icon-news.png">
+                            <div class="noti-text">
+                                <p class="label">Ghi danh khóa học </p>
+                                <p class="txt">Bạn vừa được ghi danh vào khóa học KỸ NĂNG LẬP KẾ HOẠCH VÀ TH...</p>
+                            </div>
+                    </div>
+                    <div class="noti-box flex">
+                                <img src="img/icon-news.png">
+                                <div class="noti-text">
+                                    <p class="label">// tối đa 3 thông báo gần nhất </p>
+                                    <p class="txt">// tối đa 3 thông báo gần nhất </p>
+                                </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="header-timetable flex ai-center jc-sb">
+                        <h3 class="title">Bảng tin hệ thống</h3>
+                        <p class="flex ai-center"><span>Tất cả</span> <img src="./img/down.png" alt=""></p>
+                    </div>
+                    <div class="flex flex-column">
+                        <div class="celender">
+                            <p><span>02</span><br>Tháng 12 2021</p>
+                            <div class="hori-line">
+
+                            </div> 
+                            <p>Lúc 9:30</p>
+                        </div>
+                        <div class="celender-course">
+                            <p class="course-title">Khóa học SD1</p>
+                            <div class="flex">
+                                <img src="./img/home.png" alt="">
+                                <p>307A Nguyễn Trọng Tuyển, P.10, Quận Phú Nhuận, TP.HCM,. chiều cao cứng</p>
+                            </div>
+                            <img src="./img/img.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="header-timetable flex ai-center jc-sb">
+                        <h3 class="title">Bạn bè của bạn</h3>
+                        <p class="flex ai-center"><span>Tất cả</span> <img src="./img/down.png" alt=""></p>
+                    </div>
+                    <div class="friend-ls">
+                        <div class="friend flex ai-center active">
+                            <img src="./img/Ellipse 306.png" alt="">
+                            <div class="friend-name">
+                                <p>Lê Minh Sơn</p>
+                                <div class="flex ai-center">
+                                    <p class="circle"></p>
+                                    <p>Online</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="friend flex ai-center active">
+                                <img src="./img/Ellipse 306.png" alt="">
+                                <div class="friend-name">
+                                    <p>Nguyễn Minh  </p>
+                                    <div class="flex ai-center">
+                                            <p class="circle"></p>
+                                            <p>Online</p>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="friend flex ai-center">
+                                <img src="./img/Ellipse 306.png" alt="">
+                                <div class="friend-name">
+                                    <p>Nguyễn Thu Trang</p>
+                                    <div class="flex ai-center">
+                                            <p class="circle"></p>
+                                            <p>Offline</p>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="friend flex ai-center">
+                                <img src="./img/Ellipse 306.png" alt="">
+                                <div class="friend-name">
+                                    <p>Lê Ngọc Trí</p>
+                                    <div class="flex ai-center">
+                                            <p class="circle"></p>
+                                            <p>Offline</p>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="friend flex ai-center">
+                                <img src="./img/Ellipse 306.png" alt="">
+                                <div class="friend-name">
+                                    <p>Trần Ngọc Giang</p>
+                                    <div class="flex ai-center">
+                                            <p class="circle"></p>
+                                            <p>Offline</p>
+                                        </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="plan">
+                    <div class="header-timetable flex ai-center jc-sb">
+                        <h3 class="title">Có thể bạn quan tâm</h3>
+                        <p class="flex ai-center"><span>Tất cả</span> <img src="./img/down.png" alt=""></p>
+                    </div>
+                    <div class="plans">
+                        <div class="plan">
+                            <img src="./img/Frame 625750.png" alt="">
+                            <h3 class="title">Kỹ năng lập kế hoạch và thực thi công, tối đa 2 dong, chiều cao cứng</h3>
+                        </div>
+                        <div class="plan">
+                            <img src="./img/Frame 625750.png" alt="">
+                            <h3 class="title">Kỹ năng lập kế hoạch và thực thi công, tối đa 2 dong, chiều cao cứng</h3>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="header-timetable flex ai-center jc-sb">
+                        <h3 class="title">Giảng viên yêu thích</h3>
+                        <p class="flex ai-center"><span>Tất cả</span> <img src="./img/down.png" alt=""></p>
+                    </div>
+                    <div class="teachers">
+                        <div class="flex ai-center jc-sb">
+                            <img src="./img/unsplash_2crxTr4jCkc.png" alt="">
+                            <div class="ml-8">
+                                <h2 class="name">Trần Nguyễn Ngân Duyên</h2>
+                                <div class="flex ai-center jc-sb">
+                                    <p>5.0</p>
+                                    <p>Việt Nam </p>
+                                </div>
+                                <p>Tiến sĩ Nghiên cứu, Đại học Tarlac / EMBA - Sales & Marketing - / Quản lý kinh doanh, marketing , abcd df....</p>
+                            </div>
+
+                        </div>
+                        <div class="flex ai-center jc-sb">
+                            <img src="./img/unsplash_2crxTr4jCkc.png" alt="">
+                            <div class="ml-8">
+                                <h2 class="name">Mr.David</h2>
+                                <div class="flex ai-center jc-sb">
+                                    <p><img src="./img/Frame 625463.png" alt="">
+                                        5.0</p>
+                                    <p>Việt Nam </p>
+                                </div>
+                                <p>Tiến sĩ Nghiên cứu, Đại học Tarlac / EMBA - Sales & Marketing - / Quản lý kinh doanh, marketing , abcd df....</p>
+                            </div>
+                        </div>
+                        <div class="flex ai-center jc-sb">
+                            <img src="./img/unsplash_2crxTr4jCkc.png" alt="">
+                            <div class="ml-8">
+                                <h2 class="name">Ms Anna Vu</h2>
+                                <div class="flex ai-center jc-sb">
+                                    <p><img src="./img/Frame 625463.png" alt="">5.0</p>
+                                    <p>Việt Nam </p>
+                                </div>
+                                <p>Tiến sĩ Nghiên cứu, Đại học Tarlac / EMBA - Sales & Marketing - / Quản lý kinh doanh, marketing , abcd df....</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+                <div class="flex jc-sb">
+                        <div class="col-4">
+                            <img src="./img/Group (2).png" alt="footer logo" class="footer-logo">
+                            <h1>TỔ CHỨC GIÁO DỤC QUỐC TẾ SMARTEDU</h1>
+                            <h3>Thành viên của Viện Quản trị và Tài chính (IFA) </h3>
+                            <p class="desc">Hơn 15 năm dẫn đầu trong lĩnh vực Đào tạo - Huấn luyện - Tư vấn</p>
+                        </div>
+                        <div class="col-4">
+                            <h2 class="title">Hỗ trợ</h2>
+                            <p>Phương thức thanh toán</p>
+                            <p>Chính sách điều khoản sử dụng</p> 
+                            <p>Chính sách bảo mật</p>
+                            <p>Chính sách hoàn/hủy</p>
+                        </div>
+                        <div class="col-4">
+                            <h2>
+                                Trụ sở chính:
+                                <span>60 Nguyễn Văn Thủ, Phường Đakao, Quận 1, TP.HCM</span>
+                            </h2>
+                            <h2>
+                                    Trung tâm đào tạo: 
+                                <span>307A Nguyễn Trọng Tuyển, P.10, Quận Phú Nhuận, TP.HCM</span>
+                            </h2>
+                            <h2>
+                                    SĐT: 
+                                <span>028 6681 4320</span>
+                            </h2>
+                            <h2>
+                                Hotline: 
+                                <span>0942 99 39 79</span>
+                            </h2>
+                        </div>
+                </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container flex ai-center jc-sb">
+                    <p>© Công ty TNHH Giáo Dục Quốc Tế Smart Edu - ĐKKD: 0316230955 - Cung cấp dịch vụ đào tạo trực tuyến</p>
+                    <div class="social-icon">
+                            <a href="#">
+                                    <img src="./img/Vector (3).png" alt="">
+                            </a>
+                            <a href="#">
+                                        <img class ="youtube-icon" src="./img/Vector (2).png" alt="">
+                            </a>
+                    </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/css/main.js"></script>
+</body>
+</html>
