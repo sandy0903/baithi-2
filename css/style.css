@@ -51,9 +51,14 @@ nav .nav-menu .user .user-name{
     line-height:2rem;
     font-weight:800;
 }
-.nav-menu .user .user-name img{
+.nav-menu .user .user-name .username-img{
     margin:0 7px 0 4px;
     width:36px;
+    height:36px;
+    border-radius:50%;
+    overflow:hidden;
+    display:flex;
+    align-items: center;
 }
 .nav-menu .user div:not(:last-child){
     margin-right:10px;
@@ -81,6 +86,8 @@ nav .nav-menu .user .user-name{
     width:170px;
     height:170px;
     margin:auto;
+    border-radius:50%;
+    overflow:hidden;
 }
 .content .user-col .user-infor-name{
     margin-top: 15px;
@@ -129,6 +136,10 @@ nav .nav-menu .user .user-name{
     border:none;
     background-color:var(--button-bg);
     margin-bottom:10px;
+}
+.user-col .user-courses .btn:hover{
+    background-image: var(--linear-gr);
+    color:#fff;
 }
 .user-col .user-achieve{
     border-radius: 10px;
@@ -299,6 +310,22 @@ nav .nav-menu .user .user-name{
     line-height:2rem;
     color:#1F1F1F;
     font-weight:400;
+    display: -webkit-box;
+   
+    height: 42px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+.moreInfo-col div .celender-course>div p{
+    display: -webkit-box;
+    height: 54px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .noti-box > img{
     width:18px;
@@ -593,9 +620,13 @@ nav .nav-menu .user .user-name{
     margin-left:16px;
 
 }
-.live-timetable .live img{
+.live-timetable .live .live-img{
     width:48px;
     height:48px;
+    border-radius:50%;
+    overflow:hidden;
+    display:flex;
+    align-items: center;
     margin-right:10.8px;
 }
 .live-timetable .vertical-line{
@@ -690,10 +721,12 @@ div .celender-course .course-title{
     font-weight:400;
     height:54px
 }
-.friend-ls img{
+.friend-ls .friend-img{
     width:48px;
     height:48px;
     margin-right:8px;
+    border-radius:50%;
+    overflow: hidden;
 }
 .friend-ls>div{
     margin-bottom:8px;
@@ -745,12 +778,19 @@ div .celender-course .course-title{
     height:40px;
 }
 .teachers p{
-    font-size:1.3rem;
-    line-height:1.6rem;
+    font-size:1.4rem;
+    line-height:1.8rem;
     font-weight:400;
 }
-.teachers .ml-8 p{
-    text-align:left
+.teachers .ml-8 > p{
+    text-align:left;
+    display: -webkit-box;
+   
+    height: 90px;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 /* Footer */

@@ -17,3 +17,10 @@ document.querySelector(".img-icon").onclick=function(){
 
     }
 }
+var btns=document.querySelectorAll(".btn");
+btns.forEach(item=>{
+    item.onclick=function(){
+        btns.forEach(item=>item.classList.remove("active-btn"))
+        item.classList.add("active-btn")
+    }
+})
