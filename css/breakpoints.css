@@ -74,7 +74,7 @@
 @media only screen and (max-width:1366px){
     .moreInfo-col div .celender-course>div p{
         font-size:1.2rem;
-        line-height:1.4rem;
+        
     }
     .my-courses .course .info-course .rate button,
     .teachers p{
@@ -213,6 +213,9 @@
         width:180px;
         height:auto;
     }
+}
+@media only screen and (max-width:1190px){
+    width:150px;
 }
 @media only screen and (max-width:1180px){
     .user-col .user-achieve .btn{
@@ -442,6 +445,9 @@
 }
 /* Mobile */
 @media only screen and (max-width:600px){
+    .content.animate-col .user-col .user-img{
+        width:170px;
+    }
     header,
     .content .moreInfo-col,
     .banner .banner-contact,
