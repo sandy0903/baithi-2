@@ -712,10 +712,22 @@
         width:18px;
         height:18px;
     }
+    
+}
+@media only screen and (max-width:395px){
+    .my-courses .course .info-course .rate button{
+        line-height: 1rem;
+        padding: 7px 8px;
+        font-size: 1.1rem;
+    }
 }
 @media only screen and (max-width:375px){
-
+    .my-courses .course .info-course .rate button{
+        
+        font-size: 0.8rem;
+    }
 }
+
 @media only screen and (max-width:360px){
     .table-courses .table-header h3{
         display:none;
@@ -725,7 +737,17 @@
     .news-col .fav-teacher .title{
         font-size:1.4rem;
     }
+    
+}
+@media only screen and (max-width:360px){
     .my-courses .course .info-course .rate button{
-        font-size:1rem;
+        font-size:0.9rem;
+        padding:5px 5px;
+    }
+}
+@media only screen and (max-width:340px){
+    .my-courses .course .info-course .rate button{
+        font-size:0.5rem;
+        padding:3px 9px;
     }
 }
