@@ -138,7 +138,7 @@
         width:130px;
     }
     .exam-body .exam-list .exam img{
-        width:30%;
+        width:40%;
     }
     .examination .exam-body >img{
         width:45%;
@@ -578,9 +578,7 @@
         font-size: 1.4rem;
         line-height: 1.8rem;
     }
-    .exam-list .exam .exam-info p:not(:last-child){
-        margin:8px 0;
-    }
+    
     .flex-column,
     .teachers > div.flex{
         flex-direction: row;
