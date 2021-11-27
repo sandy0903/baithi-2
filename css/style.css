@@ -230,7 +230,7 @@ nav .nav-menu .user .user-name{
     width:14px;
     height:14px;
 }
-.banner .banner-contact p{
+.banner .banner-contact p:not(:last-child){
     margin-right:30px;
 }
 .banner .banner-contact a{
@@ -763,11 +763,21 @@ div .celender-course .course-title{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+.plans .plan{
+    padding-bottom:24px;
+}
 .plan .plans h3.title{
     font-size:1.6rem;
     line-height:2rem;
     font-weight:700;
     padding:10px;
+    display: -webkit-box;
+   
+    height: 53px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 /* teachers */
 .teachers div div p img{
@@ -799,6 +809,7 @@ div .celender-course .course-title{
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+    color:rgba(108, 108, 108, 1);
 }
 
 /* Footer */

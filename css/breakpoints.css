@@ -5,8 +5,16 @@
     .news-col .fav-teacher,
     .news-col .fr,
     .news-col .wrapper-plan,
-    .img-icon{
+    .img-icon,
+    .showAt4{
         display:none;
+    }
+    .my-courses .course .info-course .rate button{
+        letter-spacing: -0.3px;
+    }
+    .teachers div >img{
+        width:150px;
+
     }
 }
 @media only screen and (max-width:1440px){
@@ -20,6 +28,10 @@
     }
     .table-courses .charts{
         width:96%;
+    }
+    .banner-content .banner-txt img{
+        height: 100%;
+        object-fit: fill;
     }
 }
 @media only screen and (max-width:1429px){
@@ -76,11 +88,10 @@
         font-size:1.2rem;
         
     }
-    .my-courses .course .info-course .rate button,
-    .teachers p{
+    .my-courses .course .info-course .rate button{
         font-size:1rem;
     }
-    .my-courses .course .info-course .title,
+   
     .teachers .name{
         font-size:1.4rem;
         line-height:1.8rem;
@@ -88,10 +99,7 @@
     .teachers .name{
         height:auto;
     }
-    .teachers div >img{
-        width:100px;
-
-    }
+    
     
     .banner-content .banner-txt{
        
@@ -101,6 +109,7 @@
     }
     .banner .banner-contact{
         margin-bottom:3.9rem;
+        
     }
     
     
@@ -125,6 +134,9 @@
     }
 }
 @media only screen and (max-width:1293px){
+    .teachers div >img{
+        width:130px;
+    }
     .exam-body .exam-list .exam img{
         width:30%;
     }
@@ -153,9 +165,12 @@
     .banner .banner-contact{
         margin-bottom:2.9rem;
     }
-    .banner-content .banner-txt,
-    .content .news-col .banner:after{
+    .banner-content .banner-txt
+    {
         height:50%
+    }
+    .content .news-col .banner:after{
+        height:100%;
     }
     .banner .banner-img{
        
@@ -204,8 +219,7 @@
     }
     .user-infor-name .btn, .user-col .user-achieve .btn,
    .user-col .user-achieve .title,
-   .my-courses .course .info-course .title, .teachers .name,
-   .plan .plans h3.title{
+   .teachers .name{
         font-size:1.2rem;
         line-height:1.4rem;
     }
@@ -236,9 +250,10 @@
     }
     .teachers > div.flex{
         flex-direction: column;
+        margin-bottom:16px;
     }
     .teachers div >img{
-        width:30%;
+        width:40%;
         margin-bottom:10px;
     }
     .live-timetable .live .title,
@@ -318,7 +333,7 @@
         margin:auto;
     }
     .my-courses .course .info-course .rate button,
-     .teachers p,
+    
      .live-timetable .live .title, 
      .live-timetable .live p.desc, 
      .moreInfo-col div .gradient-border,
@@ -347,6 +362,10 @@
 }
 
 @media only screen and (max-width:768px){
+    .live-timetable .live .live-img{
+        width:30px;
+        height:30px;
+    }
     .header-timetable p{
         line-height:1.2rem;
     }
@@ -369,7 +388,7 @@
         margin-bottom:10px;
     }
     .banner .banner-contact{
-        margin-top:0;
+        margin-top:1rem;
         width:100%;
     }
     .live-timetable .live p,
@@ -406,7 +425,7 @@
 }
 @media only screen and (max-width:700px){
     .live-timetable .live p.desc{
-        font-size:0.3rem;
+        letter-spacing: -0.8px;
     }
     .boxes .box img{
         width:50px;
@@ -445,14 +464,28 @@
 }
 /* Mobile */
 @media only screen and (max-width:600px){
+    .user-infor-name .btn{
+        font-size:1.8rem;
+        line-height:1.3rem;
+    }
+    .teachers .ml-8 > p{
+        height:72px;
+        -webkit-line-clamp: 4;
+    }
+    .my-courses .course .info-course .rate button,{
+        letter-spacing: -0.3px;
+    }
     .content.animate-col .user-col .user-img{
         width:170px;
+    }
+    .showAt4{
+        display:block;
     }
     header,
     .content .moreInfo-col,
     .banner .banner-contact,
     .boxes .box img,
-    
+    .hideAt4,
     .examination .exam-body >img,
     .live-timetable,
     .my-courses .course .info-course .course-price,
@@ -481,6 +514,7 @@
         border-radius:0;
         justify-content: center;
         align-items:center;
+        height:201px;
     }
     .boxes,.news-col .plan,.news-col .fav-teacher,
     .news-col .fr{
@@ -499,7 +533,8 @@
      .news-col .moreInfo-col .title,
      .news-col .plan .title,
      .news-col .fav-teacher .title,
-     .news-col .fr .title
+     .news-col .fr .title,
+     .user-infor-name h3.name
      {
         font-size:2rem;
         line-height:2.6rem;
@@ -512,12 +547,20 @@
     .my-courses .course .info-course .title,
     .teachers .name,
     .plan .plans h3.title,
-    .table-courses .table-header h3{
+    .table-courses .table-header h3,
+    .friend-ls .friend-name >p{
         font-size: 1.6rem;
-        line-height: 2.2rem;
+        line-height: 2rem;
         
     }
-
+    .boxes .box .title{
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+    }
+    .boxes .box-coins h1, .boxes .box-course h1{
+        font-size:2.4rem;
+        line-height:3.1rem;
+    }
     .news-col .moreInfo-col,
     .news-col .plan,
     .news-col .fav-teacher,
@@ -583,7 +626,9 @@
         margin-bottom:24px;
     }
     .plan .plans h3.title{
-        padding:24px 16px;
+       
+        text-align:left;
+        margin-bottom:24px;
     }
     /* img icon */
     .img-icon{
@@ -600,6 +645,17 @@
     .content .user-col{
         transition: all 0.2s;
     }
+    .banner-content{
+        width:66%;
+        margin-left:15.5px;
+        margin-right:0;
+    }
+    .banner .banner-img{
+        margin-left:0;
+    }
+    .hori-line{
+        margin:7px 2.5px;
+    }
 }
 @media only screen and (max-width:482px){
     .table-courses .table-header .time h5{
@@ -607,18 +663,57 @@
         line-height:1.5rem;
     }
     .table-courses .table-header .time{
-        width:242px;
+        width:224px;
     }
     .noti-box .txt,
     .my-courses .course .info-course .title{
-        font-size:1.4rem;
+        font-size:1.6rem;
+        line-height:2.08rem;
     }
+    
 }
 @media only screen and (max-width:414px){
     .table-courses .table-header .time{
         height:fit-content;
     }
-    
+    .table-courses .table-header h3{
+        font-size:2rem;
+    }
+    .table-courses .table-header .time h5{
+        font-size:1.6rem;
+        line-height:2.4rem;
+        font-weight:400;
+        width:75px;
+        overflow:hidden;
+    }
+    .table-courses .table-header .time img{
+        width:11.5px;
+        
+    }
+    .table-courses .table-header .time img:last-child{
+        margin:0;
+    }
+    .table-courses .table-header .time{
+        justify-content: space-between
+    }
+    .moreInfo-col div .celender{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:60px;
+
+    }
+    .hori-line{
+        margin:7px 2.5px;
+    }
+    .table-courses .table-header{
+        align-items:center;
+    }
+    .moreInfo-col div .celender-course div>img{
+        width:18px;
+        height:18px;
+    }
 }
 @media only screen and (max-width:375px){
 

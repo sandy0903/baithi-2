@@ -4,7 +4,7 @@
   }
 #my-chart .column {
     height: 300px;
-    widows: 90%;
+    width: 90%;
     margin: 0 auto;
   }
   #my-chart .tooltip{
@@ -19,6 +19,12 @@
      margin-top:8px;
      box-shadow: 1px 2px 5px rgba(0,0,0,0.9)
 
+  }
+  tr td{
+    width:42px;
+  }
+  .charts-css.column.data-spacing-8 tbody tr{
+    padding-inline-end:0px !important;
   }
   @media (min-width: 600px) {
     #my-chart .column {
