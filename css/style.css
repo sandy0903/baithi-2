@@ -204,7 +204,7 @@ nav .nav-menu .user .user-name{
 
 .banner-content .banner-txt{
     width:411px;
-    height:111px;
+    height:fit-content;
     margin-top:50px;
     margin-left:43px;
     margin-right:11px;
