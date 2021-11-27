@@ -24,3 +24,12 @@ btns.forEach(item=>{
         item.classList.add("active-btn")
     }
 })
+
+
+var chartCol=document.querySelectorAll("tr");
+var txtTooltip=document.querySelector("#text-tooltip")
+chartCol.forEach(col=>col.onmouseover=function(){
+    txtTooltip.innerHTML=col.querySelector(".tooltip").innerHTML;
+    console.log(txtTooltip)
+})
+console.log(chartCol.length)

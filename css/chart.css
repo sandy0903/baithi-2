@@ -34,7 +34,8 @@
   }
   @media only screen and (max-width:600px){
 
-    .charts-css.column.show-labels tbody tr th{
+    .charts-css.column.show-labels tbody tr th,
+    #my-chart .tooltip{
       display:none !important;
     }
     .l-128px{
@@ -43,7 +44,21 @@
     .l-108px{
       left:-108px !important;
     }
-  }
+    #tooltip{
+      font-size:1.6rem;
+      line-height:22.4px;
+      font-weight:600;
+      color:rgba(14, 86, 77, 1);
+    }
+    #tooltip span{
+      font-weight:700;
+    }
+    #tooltip span.small-txt{
+      font-weight:400;
+      color: #6C6C6C;
+    }
+
+ }
   @media (min-width: 1000px) {
     #my-chart .column {
       height: 296px;
