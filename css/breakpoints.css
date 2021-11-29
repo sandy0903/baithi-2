@@ -10,6 +10,9 @@
     .showAt6{
         display:none;
     }
+    .scale-out-hor-right{
+
+    }
     .my-courses .course .info-course .rate button{
         letter-spacing: -0.3px;
     }
@@ -33,6 +36,9 @@
     .banner-content .banner-txt img{
         height: 100%;
         object-fit: fill;
+    }
+    .btn-private{
+        font-size:1.5rem;
     }
 }
 @media only screen and (max-width:1429px){
@@ -116,9 +122,13 @@
     
 }
 @media only screen and (max-width:1345px){
+    .content .user-col .user-img{
+        width:150px;
+        height:150px;
+    }
     .user-infor-name h3.name,
     .live-timetable .live .title,
-    .moreInfo-col div .title,
+    
     nav .nav-menu .menu a{
         font-size:1.5rem;
         line-height:2.1rem;
@@ -151,7 +161,8 @@
        
         padding:5px 10px;
     }
-    .user-col .user-courses .btn{
+    .user-col .user-courses .btn,
+    .btn-private{
         padding:10px 10px;
     }
     .banner .banner-txt .banner-title,
@@ -200,9 +211,14 @@
     .live-timetable .live .title,
     .exam-list .exam .exam-info h3,
     .banner .banner-txt .banner-desc,
-    footer span, footer p{
+    footer span, footer p
+    {
         font-size:1.3rem;
         line-height:1.8rem;
+    }
+    .btn-private{
+        font-size:1.3rem;
+        line-height:2rem;
     }
     .live-timetable .live p, .live-timetable .live .primary-bg,
     .exam-list .exam .exam-info p{
@@ -214,7 +230,7 @@
     .banner .banner-contact{
         margin-left:20%;
     }
-    .banner .banner-txt .banner-title, nav .nav-menu .menu a, .user-infor-name h3.name{
+    .banner .banner-txt .banner-title, .user-infor-name h3.name{
         font-size:1.5rem;
         line-height:1.8rem;
     }
@@ -229,10 +245,12 @@
         height:auto;
     }
 }
-@media only screen and (max-width:1190px){
-    width:150px;
-}
+
 @media only screen and (max-width:1180px){
+    .content .user-col .user-img{
+        width:130px;
+        height:130px;
+    }
     .user-col .user-achieve .btn{
         width:100%;
         font-size:1rem;
@@ -240,10 +258,13 @@
     .boxes .box{
         padding: 16px 21.5px;
     }
-    .boxes .box .title,
-    .moreInfo-col div .title{
+    .boxes .box .title
+    {
         font-size:1.5rem;
         line-height:1.8rem;
+    }
+    .moreInfo-col div .title{
+        font-weight:800;
     }
     .boxes .box-coins h1, .boxes .box-course h1{
         font-size: 3rem;
@@ -263,9 +284,25 @@
         font-size:1rem;
         line-height:1rem;
     }
+    .private-btn{
+        font-size: 1.1rem;
+        font-weight: 900;
+    }
 }
 @media only screen and (max-width:1093px){
-    
+    .btn-private{
+        font-size:1.5rem;
+    }
+    .user-col .user-courses .btn{
+        font-size:1.4rem;
+    }
+    .content.animate-col  .user-col .user-img{
+        width:150px;
+        height:150px;
+    }
+    .user-col .user-courses .btn, .btn-private{
+        padding:15px 13px;
+    }
     .content .user-col{
         display:none;
         width:0;
@@ -283,9 +320,9 @@
     .user{
         display: none;
     }
-    .boxes .box .title, .moreInfo-col div .title,
-    .friend-ls .friend-name >p,
-    div .celender-course .course-title{
+    .boxes .box .title,
+    .friend-ls .friend-name >p
+   {
         font-size:1.3rem;
         line-height:1.5rem;
     }
@@ -293,6 +330,11 @@
         margin-top:10px;
     }
     
+}
+@media only screen and (max-width:1068px){
+    .banner-title, nav .nav-menu .menu a, .user-infor-name h3.name{
+        font-size:1.8rem;
+    }
 }
 /* Tablet */
 @media only screen and (max-width:953px){
@@ -310,6 +352,9 @@
     }
 }
 @media only screen and (max-width:884px){
+    .moreInfo-col div .title{
+        font-size:1.5rem;
+    }
     .live-timetable .live img{
         width:30px;
         height:30px;
@@ -321,11 +366,12 @@
         width:10px;
         height:10px;
     }
-    .header-timetable p{
-        font-size:1rem;
-    }
+    
     .flex-column{
         flex-direction: column;
+    }
+    .moreInfo-col div .celender-course{
+        margin-top:20px;
     }
     .moreInfo-col div .celender{
         padding:0px 0
@@ -369,6 +415,7 @@
     }
     .header-timetable p{
         line-height:1.2rem;
+        padding:10px 0;
     }
     .header-timetable img{
         width:10px;
@@ -423,6 +470,9 @@
     .live-timetable .live p.desc{
         padding:2px 3px;
     }
+    nav .nav-menu .menu a{
+        font-size:1.5rem;
+    }
 }
 @media only screen and (max-width:700px){
     .live-timetable .live p.desc{
@@ -465,6 +515,12 @@
 }
 /* Mobile */
 @media only screen and (max-width:600px){
+    .btn-private,.user-col .user-achieve .btn{
+        font-size:1.5rem;
+    }
+    .user-col .user-courses .btn, .btn-private{
+        padding:15px 13px;
+    }
     #my-chart{
         padding-bottom:0;
     }
@@ -483,7 +539,8 @@
         letter-spacing: -0.3px;
     }
     .content.animate-col .user-col .user-img{
-        width:170px;
+        width:150px;
+        height:150px;
     }
     .showAt4{
         display:block;

@@ -124,7 +124,7 @@ nav .nav-menu .user .user-name{
 }
 .user-col .user-courses .btn{
     width:100%;
-    padding:9px 10px;
+    padding:15px 13px;
     text-align:left;
     
     font-size:1.4rem;
@@ -608,7 +608,7 @@ nav .nav-menu .user .user-name{
 }
 .header-timetable p{
     font-size:1.4rem;
-    font-weight:400;
+    font-weight:700;
     line-height:1.8rem;
     color:#0075FF;
 }
@@ -912,3 +912,14 @@ footer .footer-bottom .social-icon .youtube-icon{
     border-radius:9px;
 }
 
+/* change class of private info btn with new class name */
+.btn-private{
+    padding:11px 16px;
+    font-size:1.8rem;
+    line-height:2.3rem;
+    font-weight:700;
+    color:rgba(54, 62, 87, 1);
+    border:1px solid rgba(186, 212, 255, 1);
+    border-radius:30px;
+    margin-top:15px;
+}
