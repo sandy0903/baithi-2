@@ -606,7 +606,9 @@ nav .nav-menu .user .user-name{
     height:16px;
     transform: rotate(-90deg)
 }
-.header-timetable p{
+.header-timetable p,
+.examination .header-examination p,
+.my-courses .header-course p{
     font-size:1.4rem;
     font-weight:700;
     line-height:1.8rem;

@@ -38,7 +38,7 @@ var chartCol=document.querySelectorAll("tr");
 var txtTooltip=document.querySelector("#text-tooltip")
 chartCol.forEach(col=>col.onmouseover=function(){
     txtTooltip.innerHTML=col.querySelector(".tooltip").innerHTML;
-    console.log(txtTooltip)
+    
 })
 // resize screen add animation 
 var userCol=document.querySelector(".user-col")
@@ -46,7 +46,7 @@ window.addEventListener("resize",function(){
     if(window.innerWidth<="1093"){
         
         userCol.classList.add("scale-out-hor-right");
-        console.log(userCol);
+       
         
     }else{
         userCol.classList.remove("scale-out-hor-right");
