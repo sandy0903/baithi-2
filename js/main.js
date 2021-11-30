@@ -71,26 +71,48 @@ window.addEventListener("scroll",function(){
         tableChart.classList.remove("scale-up-ver-bottom")
     }
     
-    if(window.pageYOffset>813){ 
+    if(window.pageYOffset>813 && window.innerWidth>630){ 
         processBar1.classList.add("load-1")
     }
-    if(window.pageYOffset>1090){ 
+    if(window.pageYOffset>1090 && window.innerWidth>630){ 
         processBar2.classList.add("load-2")
     }
-    if(window.pageYOffset>1313){ 
+    if(window.pageYOffset>1313 && window.innerWidth>630){ 
         processBar3.classList.add("load-3")
     }
-    if(window.pageYOffset>1513){ 
+    if(window.pageYOffset>1513 && window.innerWidth>630){ 
         processBar4.classList.add("load-4")
     }
-    if(window.pageYOffset<800 ){
+    if(window.pageYOffset<800 && window.innerWidth>630){
         processBar1.classList.remove("load-1")
         processBar2.classList.remove("load-2")
         processBar3.classList.remove("load-3")
         processBar4.classList.remove("load-4")
     }
     // if((window.pageYOffset && window.pageXOffset<1)
-    console.log(window.pageYOffset, window.screenX)
+    if(window.pageYOffset>1590 && window.innerWidth<=630){
+        processBar1.classList.add("load-1")
+
+    }
+    if(window.pageYOffset>1990 && window.innerWidth<=630){
+        processBar2.classList.add("load-2")
+
+    }
+    if(window.pageYOffset>2390 && window.innerWidth<=630){
+        processBar3.classList.add("load-3")
+
+    }
+    if(window.pageYOffset>2790 && window.innerWidth<=630){
+        processBar4.classList.add("load-4")
+
+    }
+    if(window.pageYOffset<1190 && window.innerWidth<=630){
+        processBar1.classList.remove("load-1")
+        processBar2.classList.remove("load-2")
+        processBar3.classList.remove("load-3")
+        processBar4.classList.remove("load-4")
+    }
+    console.log(window.pageYOffset, window.innerWidth)
     
 
     
