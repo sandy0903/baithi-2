@@ -20,6 +20,9 @@
         width:150px;
 
     }
+    .content .news-col .banner{
+        height:237px;
+    }
 }
 @media only screen and (max-width:1440px){
 
@@ -37,13 +40,16 @@
         height: 100%;
         object-fit: fill;
     }
-    .btn-private{
-        font-size:1.5rem;
+    .banner-content .banner-txt{
+        height:111px;
     }
+    
 }
 @media only screen and (max-width:1429px){
     .user-infor-name .btn,
-    .user-col .user-achieve .btn{
+    .user-col .user-achieve .btn,
+    .btn-private
+    {
         font-size:1.5rem;
     }  
     .moreInfo-col div .celender-course{
@@ -142,6 +148,43 @@
     } 
     .moreInfo-col div .celender-course>div p{
         font-size:1rem;
+    }
+    .celender-course .course-img-item{
+        width:46px;
+        height:46px;
+    }
+    .l-11{
+    
+        z-index:2;
+    }
+    
+    .l-22{
+        left:16px;
+        z-index:3;
+    }
+    .l-33{
+        left:32px;
+        z-index:4;
+    }
+    .l-44{
+        left:48px;
+        z-index:5;
+    }
+    .l-55{
+        left:64px;
+        z-index:6;
+    }
+    .l-66{
+        left:80px;
+        z-index:7;
+    }
+    .l-77{
+        left:96px;
+        z-index:8;
+    }
+    .l-88{
+        left:112px;
+        z-index:9;
     }
 }
 @media only screen and (max-width:1293px){
@@ -290,6 +333,10 @@
     }
 }
 @media only screen and (max-width:1093px){
+    .celender-course .course-img-item{
+        width:40px;
+        height:40px;
+    }
     .btn-private{
         font-size:1.5rem;
     }
@@ -335,9 +382,86 @@
     .banner-title, nav .nav-menu .menu a, .user-infor-name h3.name{
         font-size:1.8rem;
     }
+    .celender-course .course-img-item{
+        width:40px;
+        height:40px;
+    }
+    .l-11{
+    
+        z-index:2;
+    }
+    
+    .l-22{
+        left:11px;
+        z-index:3;
+    }
+    .l-33{
+        left:22px;
+        z-index:4;
+    }
+    .l-44{
+        left:33px;
+        z-index:5;
+    }
+    .l-55{
+        left:44px;
+        z-index:6;
+    }
+    .l-66{
+        left:55px;
+        z-index:7;
+    }
+    .l-77{
+        left:66px;
+        z-index:8;
+    }
+    .l-88{
+        left:77px;
+        z-index:9;
+    }
 }
 /* Tablet */
 @media only screen and (max-width:953px){
+    .banner .banner-img{
+        margin-top:10%;
+    }
+    .celender-course .course-img-item{
+        width:48px;
+        height:48px;
+    }
+    .l-11{
+    
+        z-index:2;
+    }
+    
+    .l-22{
+        left:16px;
+        z-index:3;
+    }
+    .l-33{
+        left:32px;
+        z-index:4;
+    }
+    .l-44{
+        left:48px;
+        z-index:5;
+    }
+    .l-55{
+        left:64px;
+        z-index:6;
+    }
+    .l-66{
+        left:80px;
+        z-index:7;
+    }
+    .l-77{
+        left:96px;
+        z-index:8;
+    }
+    .l-88{
+        left:112px;
+        z-index:9;
+    }
     .content .news-col{
         margin-left:0;
         margin-right:10px;
@@ -515,6 +639,9 @@
 }
 /* Mobile */
 @media only screen and (max-width:600px){
+    .banner .banner-img{
+        margin-top:10px;
+    }
     .btn-private,.user-col .user-achieve .btn{
         font-size:1.5rem;
     }
@@ -564,6 +691,10 @@
     .content .container,.content .news-col,
     .banner-content .banner-txt{
         margin:0;
+    }
+    
+    .banner-content .banner-txt{
+        height:88px;
     }
     .content .news-col .banner,
     .noti,
@@ -698,7 +829,7 @@
         position: fixed;
         top:40%;
         right:-19px;
-        z-index:4;
+        z-index:12;
 
     }
     .content.animate-col .user-col{

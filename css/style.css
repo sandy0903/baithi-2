@@ -1,7 +1,7 @@
 /* Header navbar */
 header{
     position: fixed;
-    z-index:3;
+    z-index:10;
     left:0;
     right:0;
     background-color:#fff;
@@ -26,6 +26,7 @@ nav .nav-menu .menu a{
     font-weight:bold;
     color:var(--primary-color);
     padding-right:30px;
+    cursor:pointer;
 }
 
 nav .nav-menu .user .cart,
@@ -39,7 +40,7 @@ nav .nav-menu .user .arrow-down{
 }
 nav .nav-menu .user .cart img{ width:30px}
 nav .nav-menu .user .bell img{width:23px}
-nav .nav-menu .user .arrow-down img{width:10px}
+nav .nav-menu .user .arrow-down img{width:15px; height:15px;}
 nav .nav-menu .user .user-name{
     width:129px;
     height:45px;
@@ -177,6 +178,10 @@ nav .nav-menu .user .user-name{
     border:1px solid #0E564D;
     padding:11px 15px;
     border-radius:30px;
+    cursor:pointer;
+}
+.user-col .user-achieve .btn:hover{
+    box-shadow:2px 3px 0px rgba(0,0,0,0.4)
 }
 /* News about courses  */
 
@@ -253,6 +258,10 @@ nav .nav-menu .user .user-name{
     padding:40px 39.5px;
     border-radius:10px;
     background-color:#fff;
+    cursor:pointer;
+}
+.boxes .box:hover{
+    box-shadow:2px 5px 10px rgba(0,0,0,0.4)
 }
 .boxes .box-coins{
     border:1px solid #F3C72B;
@@ -340,6 +349,7 @@ nav .nav-menu .user .user-name{
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+   
 }
 .noti-box > img{
     width:18px;
@@ -476,7 +486,12 @@ nav .nav-menu .user .user-name{
     padding:15px;
     border:1px solid #D6D6D6;
     border-radius:5px;
+    cursor:pointer;
     
+}
+.my-courses .course:hover{
+    transform:translateY(-4px);
+    box-shadow:2px 4px 5px rgba(0,0,0,0.4)
 }
 .my-courses .course:not(:last-child){
     margin:24px 0;
@@ -634,6 +649,10 @@ nav .nav-menu .user .user-name{
     font-size:1.4rem;
     line-height:1.8rem;
     font-weight:400;
+    cursor:pointer;
+}
+.live-timetable .live .primary-bg:hover{
+    box-shadow:2px 3px 3px rgba(0,0,0,0.4)
 }
 .live-timetable .live p.desc{
     font-size:1.2rem;
@@ -704,6 +723,10 @@ nav .nav-menu .user .user-name{
     border-radius:5px;
     margin-top:24px;
     background-color:#fff;
+    cursor:pointer;
+}
+.moreInfo-col div .gradient-border:hover{
+    box-shadow:2px 3px 0px rgba(0,0,0,0.4);
 }
 .moreInfo-col div .celender{
     background-color:rgba(1,167,2,0.16);
@@ -731,10 +754,15 @@ nav .nav-menu .user .user-name{
 .moreInfo-col div .celender-course{
     width:100%;
 }
-.moreInfo-col div .celender-course img{
+.moreInfo-col div .celender-course .flex>img{
     width:20px;
     height:20px;
     margin-right:11px;
+}
+
+.moreInfo-col div .celender-course .course-img-item img{
+    width:100%;
+    height:100%;
 }
 .moreInfo-col div .celender-course > img{
     width:auto;
@@ -745,6 +773,30 @@ div .celender-course .course-title{
     line-height:2rem;
     font-weight:700;
 }
+.celender-course .course-img{
+    position:relative;
+   height:fit-content;
+}
+.moreInfo-col div .celender-course>div.course-img{
+    margin-top:26px;
+}
+.celender-course .course-img-item{
+    width:48px;
+    height:48px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+    border-radius:50%;
+    position:absolute;
+    border:1px solid #0EBF46;
+}
+.celender-course .course-img-item p{
+    background-color:#EBF6FA;
+    font-size:1.2rem;
+    line-height:1.5rem;
+    font-weight:400;
+}
 .moreInfo-col div .celender-course>div{
     margin:8px 0;
 }
@@ -753,6 +805,15 @@ div .celender-course .course-title{
     line-height:1.8rem;
     font-weight:400;
     height:56px
+}
+.moreInfo-col div .celender-course>div.course-img .course-img-item > p{
+    height:48px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    line-height:48px;
+    padding-top:10px;
 }
 .friend-ls .friend-img{
     width:48px;
@@ -924,4 +985,9 @@ footer .footer-bottom .social-icon .youtube-icon{
     border:1px solid rgba(186, 212, 255, 1);
     border-radius:30px;
     margin-top:15px;
+    cursor:pointer;
+
+}
+.btn-private:hover{
+    box-shadow:2px 3px 0px rgba(0,0,0,0.4)
 }

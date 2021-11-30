@@ -60,7 +60,7 @@ window.addEventListener("resize",function(){
 var tableChart=document.querySelector("tbody")
 
 window.addEventListener("scroll",function(){
-    if(window.pageYOffset>400){
+    if(window.pageYOffset>550){
         tableChart.classList.add("scale-up-ver-bottom")
     }else{
         tableChart.classList.remove("scale-up-ver-bottom")
