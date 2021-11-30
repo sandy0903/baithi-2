@@ -65,19 +65,25 @@ var processBar3=document.getElementById("3")
 var processBar4=document.getElementById("4")
 
 window.addEventListener("scroll",function(){
-    if(window.pageYOffset>500 && window.innerWidth>350){
+    if(window.pageYOffset>400 && window.innerWidth>650){
         tableChart.classList.add("scale-up-ver-bottom")
     }
-    if(window.pageYOffset<500 && window.innerWidth>350){
+    if(window.pageYOffset<400 && window.innerWidth>650){
         tableChart.classList.remove("scale-up-ver-bottom")
     }
-    if(window.pageYOffset>300 && window.innerWidth<=350){
+    if(window.pageYOffset>200 && window.innerWidth<=630 && window.innerWidth>350){
         tableChart.classList.add("scale-up-ver-bottom")
     }
-    if(window.pageYOffset<300 && window.innerWidth<=350){
+    if(window.pageYOffset<200 && window.innerWidth<=630 && window.innerWidth>350){
         tableChart.classList.remove("scale-up-ver-bottom")
     }
-
+    if(window.pageYOffset>100 && window.innerWidth<=350){
+        tableChart.classList.add("scale-up-ver-bottom")
+    }
+    if(window.pageYOffset<100 && window.innerWidth<=350){
+        tableChart.classList.remove("scale-up-ver-bottom")
+    }
+// progress bar
     if(window.pageYOffset>813 && window.innerWidth>630){ 
         processBar1.classList.add("load-1")
     }
@@ -97,23 +103,23 @@ window.addEventListener("scroll",function(){
         processBar4.classList.remove("load-4")
     }
     // if((window.pageYOffset && window.pageXOffset<1)
-    if(window.pageYOffset>1310 && window.innerWidth<=630 && window.innerWidth>350){
+    if(window.pageYOffset>400 && window.innerWidth<=630 && window.innerWidth>350){
         processBar1.classList.add("load-1")
 
     }
-    if(window.pageYOffset>1614 && window.innerWidth<=630 && window.innerWidth>350){
+    if(window.pageYOffset>700 && window.innerWidth<=630 && window.innerWidth>350){
         processBar2.classList.add("load-2")
 
     }
-    if(window.pageYOffset>1900 && window.innerWidth<=630 && window.innerWidth>350){
+    if(window.pageYOffset>1000 && window.innerWidth<=630 && window.innerWidth>350){
         processBar3.classList.add("load-3")
 
     }
-    if(window.pageYOffset>2271 && window.innerWidth<=630 && window.innerWidth>350){
+    if(window.pageYOffset>1300 && window.innerWidth<=630 && window.innerWidth>350){
         processBar4.classList.add("load-4")
 
     }
-    if(window.pageYOffset<1389 && window.innerWidth<=630 && window.innerWidth>350){
+    if(window.pageYOffset<400 && window.innerWidth<=630 && window.innerWidth>350){
         processBar1.classList.remove("load-1")
         processBar2.classList.remove("load-2")
         processBar3.classList.remove("load-3")
