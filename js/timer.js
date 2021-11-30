@@ -27,11 +27,11 @@ function countdown(futureTime, element){
         // If the count down is finished, write some text
         if (distance < 0) {
           clearInterval(x);  
-          element.innerHTML="Start now"      ;
-          document.querySelectorAll(".live-timetable .live .primary-bg").forEach(item=>item.setAttribute("style", " cursor:pointer ; opacity:1"));
+          element.innerHTML="Start now"  ;
+          element.parentElement.parentElement.querySelector(".primary-bg").setAttribute("style", " cursor:pointer ; opacity:1");
   
         }
-        
+      
        
         
       }, 1000);
