@@ -56,8 +56,13 @@ window.addEventListener("resize",function(){
         
     }
 })
+
 // scroll add class
 var tableChart=document.querySelector("tbody")
+var processBar1=document.getElementById("1")
+var processBar2=document.getElementById("2")
+var processBar3=document.getElementById("3")
+var processBar4=document.getElementById("4")
 
 window.addEventListener("scroll",function(){
     if(window.pageYOffset>550){
@@ -65,6 +70,28 @@ window.addEventListener("scroll",function(){
     }else{
         tableChart.classList.remove("scale-up-ver-bottom")
     }
+    
+    if(window.pageYOffset>813){ 
+        processBar1.classList.add("load-1")
+    }
+    if(window.pageYOffset>1090){ 
+        processBar2.classList.add("load-2")
+    }
+    if(window.pageYOffset>1313){ 
+        processBar3.classList.add("load-3")
+    }
+    if(window.pageYOffset>1513){ 
+        processBar4.classList.add("load-4")
+    }
+    if(window.pageYOffset<800 ){
+        processBar1.classList.remove("load-1")
+        processBar2.classList.remove("load-2")
+        processBar3.classList.remove("load-3")
+        processBar4.classList.remove("load-4")
+    }
+    // if((window.pageYOffset && window.pageXOffset<1)
+    console.log(window.pageYOffset, window.screenX)
+    
 
     
 })

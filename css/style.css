@@ -180,9 +180,7 @@ nav .nav-menu .user .user-name{
     border-radius:30px;
     cursor:pointer;
 }
-.user-col .user-achieve .btn:hover{
-    box-shadow:2px 3px 0px rgba(0,0,0,0.4)
-}
+
 /* News about courses  */
 
 .content .news-col{
@@ -260,9 +258,7 @@ nav .nav-menu .user .user-name{
     background-color:#fff;
     cursor:pointer;
 }
-.boxes .box:hover{
-    box-shadow:2px 5px 10px rgba(0,0,0,0.4)
-}
+
 .boxes .box-coins{
     border:1px solid #F3C72B;
 }
@@ -491,7 +487,7 @@ nav .nav-menu .user .user-name{
 }
 .my-courses .course:hover{
     transform:translateY(-4px);
-    box-shadow:2px 4px 5px rgba(0,0,0,0.4)
+    transition:transform 0.3s linear;
 }
 .my-courses .course:not(:last-child){
     margin:24px 0;
@@ -651,9 +647,7 @@ nav .nav-menu .user .user-name{
     font-weight:400;
     cursor:pointer;
 }
-.live-timetable .live .primary-bg:hover{
-    box-shadow:2px 3px 3px rgba(0,0,0,0.4)
-}
+
 .live-timetable .live p.desc{
     font-size:1.2rem;
     line-height:1.5rem;
@@ -725,9 +719,7 @@ nav .nav-menu .user .user-name{
     background-color:#fff;
     cursor:pointer;
 }
-.moreInfo-col div .gradient-border:hover{
-    box-shadow:2px 3px 0px rgba(0,0,0,0.4);
-}
+
 .moreInfo-col div .celender{
     background-color:rgba(1,167,2,0.16);
     
@@ -987,7 +979,4 @@ footer .footer-bottom .social-icon .youtube-icon{
     margin-top:15px;
     cursor:pointer;
 
-}
-.btn-private:hover{
-    box-shadow:2px 3px 0px rgba(0,0,0,0.4)
 }

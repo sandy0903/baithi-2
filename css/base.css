@@ -253,7 +253,19 @@ button{
             transform: translateX(0);
   }
 }
-
+/* hover for button and card-product */
+.card-product:hover,
+.moreInfo-col div .gradient-border:hover,
+.btn-private:hover,
+.user-col .user-achieve .btn:hover{
+    box-shadow: 3px 3px rgba(0,0,0,0.3);
+    transform: translateY(-4px);
+    transition: transform 0.2s linear;
+}
+.plan.card-product:hover,
+.exam.card-product:hover{
+    border-radius:10px;
+}
 /* scale */
 .scale-out-hor-right {
 	-webkit-animation: scale-out-hor-right 0.3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
@@ -349,3 +361,60 @@ button{
     }
   }
   
+  /* process bar animation */
+  .progress {
+    background:#E1E5F1;
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    
+    display: flex;
+    height: 14px;
+    width: 389px;
+  }
+  
+  .progress-value {
+    
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #F4A100;
+    height: 14px;
+    width: 0;
+  }
+  .load-1{
+    animation: load-1 2s normal forwards;
+  }
+  .load-2{
+    animation: load-2 2s normal forwards;
+  }
+  .load-3{
+    animation: load-3 2s normal forwards;
+  }
+  .load-4{
+    animation: load-4 2s normal forwards;
+  }
+  
+  @keyframes load-1 {
+    0% { width: 0; }
+    100% { width: 15%; }
+  }
+  @keyframes load-2 {
+    0% { width: 0; }
+    100% { width: 45%; }
+  }
+  @keyframes load-3 {
+    0% { width: 0; }
+    100% { width: 75%; }
+  }
+  @keyframes load-4 {
+    0% { width: 0; }
+    100% { width: 100%; }
+  }
+
+.progress-bar{
+    color:rgba(31, 31, 31, 1);
+    font-size:1.4rem;
+    line-height:1.8rem;
+    font-weight:600;
+}
