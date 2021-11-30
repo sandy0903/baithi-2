@@ -103,19 +103,19 @@ window.addEventListener("scroll",function(){
         processBar4.classList.remove("load-4")
     }
     // if((window.pageYOffset && window.pageXOffset<1)
-    if(window.pageYOffset>1400 && window.innerWidth<=630 && window.innerWidth>350){
+    if(window.pageYOffset>1401 && window.innerWidth<=630 && window.innerWidth>350){
         processBar1.classList.add("load-1")
 
     }
-    if(window.pageYOffset>1600 && window.innerWidth<=630 && window.innerWidth>350){
+    if(window.pageYOffset>1601 && window.innerWidth<=630 && window.innerWidth>350){
         processBar2.classList.add("load-2")
 
     }
-    if(window.pageYOffset>2000 && window.innerWidth<=630 && window.innerWidth>350){
+    if(window.pageYOffset>2001 && window.innerWidth<=630 && window.innerWidth>350){
         processBar3.classList.add("load-3")
 
     }
-    if(window.pageYOffset>2300 && window.innerWidth<=630 && window.innerWidth>350){
+    if(window.pageYOffset>2301 && window.innerWidth<=630 && window.innerWidth>350){
         processBar4.classList.add("load-4")
 
     }
