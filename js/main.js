@@ -71,7 +71,7 @@ window.addEventListener("scroll",function(){
     if(window.pageYOffset<550 && window.innerWidth>350){
         tableChart.classList.remove("scale-up-ver-bottom")
     }
-    if(window.pageYOffset>480 && window.innerWidth<=350){
+    if(window.pageYOffset>380 && window.innerWidth<=350){
         tableChart.classList.add("scale-up-ver-bottom")
     }
     if(window.pageYOffset<480 && window.innerWidth<=350){
