@@ -103,23 +103,23 @@ window.addEventListener("scroll",function(){
         processBar4.classList.remove("load-4")
     }
     // if((window.pageYOffset && window.pageXOffset<1)
-    if(window.pageYOffset>1401 && window.innerWidth<=630 && window.innerWidth>350){
+    if(window.pageYOffset>1701 && window.innerWidth<=630 && window.innerWidth>350){
         processBar1.classList.add("load-1")
 
     }
-    if(window.pageYOffset>1601 && window.innerWidth<=630 && window.innerWidth>350){
+    if(window.pageYOffset>2101 && window.innerWidth<=630 && window.innerWidth>350){
         processBar2.classList.add("load-2")
 
     }
-    if(window.pageYOffset>2001 && window.innerWidth<=630 && window.innerWidth>350){
+    if(window.pageYOffset>2501 && window.innerWidth<=630 && window.innerWidth>350){
         processBar3.classList.add("load-3")
 
     }
-    if(window.pageYOffset>2301 && window.innerWidth<=630 && window.innerWidth>350){
+    if(window.pageYOffset>2901 && window.innerWidth<=630 && window.innerWidth>350){
         processBar4.classList.add("load-4")
 
     }
-    if(window.pageYOffset<700 && window.innerWidth<=630 && window.innerWidth>350){
+    if(window.pageYOffset<1000 && window.innerWidth<=630 && window.innerWidth>350){
         processBar1.classList.remove("load-1")
         processBar2.classList.remove("load-2")
         processBar3.classList.remove("load-3")
