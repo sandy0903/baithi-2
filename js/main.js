@@ -103,7 +103,7 @@ window.addEventListener("scroll",function(){
         processBar4.classList.remove("load-4")
     }
     // if((window.pageYOffset && window.pageXOffset<1)
-    if(window.pageYOffset>801 && window.innerWidth<=630 && window.innerWidth>350){
+    if(window.pageYOffset>1801 && window.innerWidth<=630 && window.innerWidth>350){
         processBar1.classList.add("load-1")
 
     }
