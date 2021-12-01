@@ -32,7 +32,10 @@
     }
 }
 @media only screen and (max-width:1440px){
-
+    .btn-private
+    {
+        font-size:1.5rem;
+    }  
     .moreInfo-col div .celender-course > img{
         width:100%;
     }
