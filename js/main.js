@@ -84,19 +84,19 @@ window.addEventListener("scroll",function(){
         tableChart.classList.remove("scale-up-ver-bottom")
     }
 // progress bar
-    if(window.pageYOffset>813 && window.innerWidth>630){ 
+    if(window.pageYOffset>613 && window.innerWidth>630){ 
         processBar1.classList.add("load-1")
     }
-    if(window.pageYOffset>1090 && window.innerWidth>630){ 
+    if(window.pageYOffset>890 && window.innerWidth>630){ 
         processBar2.classList.add("load-2")
     }
-    if(window.pageYOffset>1313 && window.innerWidth>630){ 
+    if(window.pageYOffset>1113 && window.innerWidth>630){ 
         processBar3.classList.add("load-3")
     }
-    if(window.pageYOffset>1513 && window.innerWidth>630){ 
+    if(window.pageYOffset>1313 && window.innerWidth>630){ 
         processBar4.classList.add("load-4")
     }
-    if(window.pageYOffset<800 && window.innerWidth>630){
+    if(window.pageYOffset<600 && window.innerWidth>630){
         processBar1.classList.remove("load-1")
         processBar2.classList.remove("load-2")
         processBar3.classList.remove("load-3")
