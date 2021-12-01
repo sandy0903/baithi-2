@@ -207,6 +207,12 @@
     }
    
 }
+@media only screen and (max-width:1345px){
+    .teachers div >img{
+        height:100px;
+        width:100px;
+    }
+}
 @media only screen and (max-width:1293px){
     .teachers div >img{
         width:130px;

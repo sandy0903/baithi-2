@@ -125,23 +125,23 @@ window.addEventListener("scroll",function(){
         processBar3.classList.remove("load-3")
         processBar4.classList.remove("load-4")
     }
-    if(window.pageYOffset>1262 && window.innerWidth<=350){
+    if(window.pageYOffset>734 && window.innerWidth<=350){
         processBar1.classList.add("load-1")
 
     }
-    if(window.pageYOffset>1624 && window.innerWidth<=350){
+    if(window.pageYOffset>1138 && window.innerWidth<=350){
         processBar2.classList.add("load-2")
 
     }
-    if(window.pageYOffset>1970 && window.innerWidth<=350){
+    if(window.pageYOffset>1638 && window.innerWidth<=350){
         processBar3.classList.add("load-3")
 
     }
-    if(window.pageYOffset>2328 && window.innerWidth<=350){
+    if(window.pageYOffset>2038 && window.innerWidth<=350){
         processBar4.classList.add("load-4")
 
     }
-    if(window.pageYOffset<1328 && window.innerWidth<=350){
+    if(window.pageYOffset<700 && window.innerWidth<=350){
         processBar1.classList.remove("load-1")
         processBar2.classList.remove("load-2")
         processBar3.classList.remove("load-3")

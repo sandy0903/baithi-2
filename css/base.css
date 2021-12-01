@@ -54,6 +54,9 @@ button{
 .jc-sa{
     justify-content: space-around;
 }
+.jc-se{
+    justify-content:space-evenly;
+}
 .active-btn{
     background-image:var(--linear-gr) !important;
     color:#FFF !important;
