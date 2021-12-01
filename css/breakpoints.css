@@ -217,6 +217,15 @@
     }
 }
 @media only screen and (max-width:1293px){
+    .content .user-col{
+        display:none;
+        width:0;
+        transition:all 4s;
+        right:-100%;
+    } 
+    .hamburger-menu{
+        display:block;
+    }
     .teachers div >img{
         width:130px;
     }
@@ -379,15 +388,7 @@
     .user-col .user-courses .btn, .btn-private{
         padding:15px 13px;
     }
-    .content .user-col{
-        display:none;
-        width:0;
-        transition:all 4s;
-        right:-100%;
-    } 
-    .hamburger-menu{
-        display:block;
-    }
+    
     footer .footer-bottom p{
         width:70%;
     }
@@ -456,15 +457,21 @@
         left:77px;
         z-index:9;
     }
-}
-/* Tablet */
-@media only screen and (max-width:953px){
-    .banner .banner-img{
-        margin-top:10%;
+    .content .moreInfo-col{
+
+        width: 35.431%;
+    }
+    .content .news-col{
+        margin-left:0;
+        margin-right:10px;
+        width:60%;
     }
     .celender-course .course-img-item{
         width:48px;
         height:48px;
+    }
+    .my-courses .course .info-course{
+        width:60%;
     }
     .l-11{
     
@@ -499,21 +506,20 @@
         left:112px;
         z-index:9;
     }
-    .content .news-col{
-        margin-left:0;
-        margin-right:10px;
-        width:60%;
-    }
-    .content .moreInfo-col{
-
-    width: 35.431%;
+    
+   
 }
+/* Tablet */
+@media only screen and (max-width:953px){
+    .banner .banner-img{
+        margin-top:10%;
+    }
+    
+   
     .live-timetable .live{
         padding:6px;
     }
-    .my-courses .course .info-course{
-        width:60%;
-    }
+   
 }
 @media only screen and (max-width:884px){
     .my-courses .course>img{
