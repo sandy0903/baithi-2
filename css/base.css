@@ -60,7 +60,7 @@ button{
 .active-btn{
     background-image:var(--linear-gr) !important;
     color:#FFF !important;
-    box-shadow:2px 2px 4px rgba(0,0,0,0.25);
+    /* box-shadow:2px 2px 4px rgba(0,0,0,0.25); */
    
 }
 .l-11{
@@ -257,13 +257,16 @@ button{
   }
 }
 /* hover for button and card-product */
-.card-product:hover,
-.moreInfo-col div .gradient-border:hover,
-.btn-private:hover,
-.user-col .user-achieve .btn:hover{
+.card-product:hover{
     box-shadow: 3px 3px rgba(0,0,0,0.3);
     transform: translateY(-4px);
     transition: transform 0.2s linear;
+}
+.moreInfo-col div .gradient-border:hover,
+.btn-private:hover,
+.user-col .user-achieve .btn:hover{
+    border:2px solid #007739
+
 }
 .plan.card-product:hover,
 .exam.card-product:hover{
