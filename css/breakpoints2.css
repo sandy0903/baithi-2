@@ -1,0 +1,101 @@
+@media only screen and (max-width:1920px){
+    .user-col,
+    .hamburger-menu{
+        display:none;
+    }
+}
+@media only screen and (max-width:1439px){
+    .voucher-item .voucher-txt-title{
+        font-size:4rem;
+    }
+}
+@media only screen and (max-width:1348px){
+    .wrapper-course{
+        flex-wrap:wrap;
+    }
+    .vouchers .course{
+        width:500px;
+    }
+    .vouchers .course-txt{
+        margin-top:73px;
+        margin-bottom:30px
+    }
+    .vouchers .course .info-course .hot{
+        top:-267px;
+        right:-453px;
+    }
+    .discount-voucher .container{
+        width:90%;
+    }
+}
+@media only screen and (max-width:1260px){
+    .voucher-wrapper .voucher-item .voucher-img{
+        width:250px;
+    }
+    .voucher-wrapper .voucher-item .voucher-img,
+    .voucher-wrapper .voucher-item .border{
+        height:250px;
+    }
+    .voucher-wrapper .voucher-item .border{
+        padding:15px 20px;
+    }
+}
+@media only screen and (max-width:1188px){
+    .user{
+        flex-direction:column;
+        justify-content: center;
+        background-color:rgba(0,0,0,0.4);
+        position:fixed;
+        top:85px ;
+        right:0;
+        z-index:10;
+        display:none;
+    }
+    /* nav .nav-menu .user .cart, nav .nav-menu .user .bell, nav .nav-menu .user .arrow-down,
+    nav .nav-menu .user .user-name{
+        width:240px;
+        background-color:#fff;
+        border-radius:0;
+        text-align:center;
+        justify-content: center;
+    }
+    .nav-menu .user div:not(:last-child){
+        margin:0;
+    }
+    
+    .hamburger-menu{
+        display:block;
+    } */
+}
+@media only screen and (max-width:1120px){
+    .voucher-wrapper .voucher-item .voucher-img{
+        width:250px;
+    }
+    .voucher-wrapper .voucher-item .voucher-img,
+    .voucher-wrapper .voucher-item .border{
+        height:250px;
+    }
+    .voucher-item .voucher-txt-title{
+        font-size:3rem;
+    }
+    .voucher-wrapper .voucher-item .border{
+        justify-content: space-between;
+    }
+    .voucher-wrapper .voucher-item{
+        margin-top:40px;
+    }
+    .vouchers .course{
+        width:60%;
+        margin:auto;
+    }
+    .vouchers .course-txt{
+        margin-top:133px;
+    }
+    .rate{
+        justify-content:center;
+    }
+    .vouchers .rate button{
+        margin:0 20px;
+        padding:13px 20px;
+    }
+}

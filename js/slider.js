@@ -19,4 +19,26 @@ function carousel() {
   }
 
 
+document.querySelector("#discount-mem").onclick=function(){
+  document.querySelector("#popUp-1").style.display="block";
+  document.querySelector("#overlay-1").classList.add("overlay-1")
+    document.querySelector("#popUp-1").classList.add("slide-bottom")
+}
+document.querySelectorAll(".out-popup").forEach(btn=>btn.onclick=function(){
+  document.querySelector("#popUp-1").style.display="none";
+  document.querySelector("#overlay-1").classList.remove("overlay-1")
+    document.querySelector("#popUp-1").classList.remove("slide-bottom")
+})
 
+
+document.querySelector(".hamburger-menu").onclick=function(){
+  if( this.classList.contains("animate")){
+      this.classList.remove("animate")
+      document.querySelector(".content").classList.remove("animate-col")
+  }else{
+      this.classList.add("animate");
+      document.querySelector(".user").classList.add("hidden")
+      document.querySelector(".content").classList.add("animate-col")
+  }
+  
+}

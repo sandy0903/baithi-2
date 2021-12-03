@@ -7,7 +7,8 @@
     position: relative;
 }
 .img-wrapper{
-    max-width:1440px;
+    max-width:100%;
+    width:1440px;
     border:1px solid #000;
     padding-top:85px;
     
@@ -130,6 +131,7 @@ nav .menu ul a{
 }
 .voucher-item .voucher-btn{
     text-align:end; 
+    margin-top:60px;
 }
 .voucher-item .primary-bg{
     width:242px;
@@ -146,7 +148,7 @@ nav .menu ul a{
     line-height:4.8rem;
     font-weight:400;
     color:rgba(0, 117, 255, 1);
-    margin-top:8px;
+    margin-top:20px;
     margin-right:auto;
 }
 
@@ -167,19 +169,19 @@ nav .menu ul a{
     color:#fff;
     text-align:center;
 }
-/* .voucher-item .limited:after{
+.voucher-item .limited:after{
     content:"";
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 19px 10px 0 0;
+    border-width: 19px 19px 0 0;
     border-color:#CF6B0C transparent transparent transparent;
     position:absolute;
-    top:0;
+    top:100%;
     right:0;
-} */
+}
 .vouchers .course{
-    max-width:370px;
+    width:370px;
     position:relative;
 }
 .vouchers .course .course-img{
@@ -252,6 +254,12 @@ nav .menu ul a{
     padding:17px 16px 79px 19px;
     max-width:970px;
    height:952px;
+   background-color:#fff;
+    margin:auto;
+    transform:translateY(-500%);
+    display:none;
+    position: relative;
+    z-index:100;
 }
 .popUp .popUp-header{
     border:1px solid rgba(218, 218, 218, 1);
@@ -342,4 +350,18 @@ nav .menu ul a{
 }
 .popUp .popUp-btn{
     margin-top:32px;
+}
+.popUp .popUp-btn button{
+    font-size: 3.2rem;
+    line-height:4.4rem;
+    font-weight:400;
+    padding:17px 77px;
+    
+    
+}
+.popUp .popUp-btn button.border-primary{
+    border:1px solid rgba(4, 148, 53, 1);
+    color:rgba(4, 148, 53, 1);
+    background-color:#fff;
+    margin-right:30px;
 }

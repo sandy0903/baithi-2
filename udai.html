@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/base.css"> 
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/style2.css">
-    <link rel="stylesheet" href="./css/chart.css">
+    <link rel="stylesheet" href="./css/breakpoints2.css">
     
 </head>
 <body>
@@ -44,8 +44,15 @@
                 </div>
                
             </div>
+            <!-- <div class="hamburger-menu ">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="overlay"></div>
+            </div> -->
         </nav>
     </header>
+    
     <!-- Main section -->
     <section class="hero-section">
         <div class="img-wrapper">
@@ -69,7 +76,7 @@
                         <div class="voucher-img">
                             <img src="./img/newmember.png" alt="welcoming new member voucher">
                         </div>
-                        <div class="border flex ai-center">
+                        <div class="border flex ai-center" id="discount-mem">
                             <div class="voucher-txt">
                                 <h1 class="voucher-txt-title">Đơn hàng đầu tiên</h1>
                                 <p class="voucher-max-return">Tối đa 100k</p>
@@ -210,8 +217,8 @@
     </section> 
     <!-- Pop up Detail -->
     
-   <div class="">
-        <div class="popUp" id="1">
+   <div class="popUp-wrapper ">
+        <div class="popUp" id="popUp-1">
                 <div class="popUp-header flex ai-center">
                         <div class="popUp-header-img">
                                 <img src="./img/newmember.png" alt="welcoming new member voucher">
@@ -244,13 +251,13 @@
                                 
                             </ul>
                 </div>
-                <div class="popUp-btn">
-                    <button class="btn border-primary">Thoát</button>
-                    <button class="btn primary-bg">Lưu</button>
+                <div class="popUp-btn flex jc-e">
+                    <button class="btn border-primary out-popup">Thoát</button>
+                    <button class="btn primary-bg out-popup" >Lưu</button>
 
                 </div>
             </div>
-            <div class="popUp" id="2">
+            <div class="popUp hidden" id="2">
                     <div class="popUp-header flex ai-center ">
                                 <div class="popUp-header-img">
                                     <img src="./img/newmember.png" alt="welcoming new member voucher">
@@ -288,7 +295,7 @@
                             <button class="btn primary-bg">Lưu</button>
                     </div>
             </div>
-            <div class="popUp" id="3">
+            <div class="popUp hidden" id="3">
                         <div class="popUp-header flex ai-center ">
                                 <div class="popUp-header-img">
                                         <img src="./img/newmember.png" alt="welcoming new member voucher">
@@ -327,6 +334,8 @@
                         </div>
             </div>
    </div> 
+   <!-- overlay -->
+   <div class="" id="overlay-1"></div>
     <!-- Footer -->
     <footer>
             <div class="container">
@@ -379,6 +388,8 @@
             </div>
         </div>
     </footer>
+    
+
     <script src="./js/slider.js"></script>
 </body>
 </html>
