@@ -394,6 +394,12 @@
     }
     .col-4{
         width:100%;
+        margin-bottom:20px;
+        margin-top:20px;
+    }
+    footer span, footer p{
+        font-size:1.3rem;
+        line-height:1.5rem;
     }
 }
 @media only screen and (max-width:458px){
@@ -431,6 +437,11 @@
     }
     .next-pre-icon{
         bottom:82px;
+    }
+    }
+@media only screen and (max-width:316px){
+    .voucher-item .voucher-max-return{
+        line-height:1.8rem;
     }
     }
     

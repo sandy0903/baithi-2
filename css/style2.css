@@ -407,3 +407,21 @@ nav .menu ul a{
     background-color:#fff;
     margin-right:30px;
 }
+/* nav-menu */
+.ham-menu{
+        /* display: flex; */
+    /* flex-direction: column; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: fit-content !important;
+    background-color: #000;
+    top: 85px;
+    z-index:1000;
+}
+.ham-menu ul{
+    flex-direction:column;
+}
+.ham-menu ul li{
+    padding:13px;
+}
