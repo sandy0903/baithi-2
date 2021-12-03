@@ -11,7 +11,7 @@
 .hero-section{
     max-width:100%;
     width:100%;
-    height:calc(var(--width) / 2.33333);
+    height:calc(100% / 2.33333);
     position: relative;
 }
 .next-pre-icon{
@@ -29,7 +29,7 @@
 .img-slider{
     display:none;
     max-width:100%;
-    height:calc(var(--width) / 2.33333);
+    height:calc(100% / 2.33333);
 }
 .img-footer{
     position:absolute;

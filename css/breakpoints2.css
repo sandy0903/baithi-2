@@ -250,13 +250,14 @@
         margin-top:20px;
     }
 }
-@media only screen and (max-width:848px){
+@media only screen and (max-width:856px){
     .voucher-wrapper .voucher-item .voucher-img, .voucher-wrapper .voucher-item .border{
-        height:150px;
+        height:140px;
+        width:140px;
     }
     .voucher-wrapper .voucher-item .voucher-img img{
-        width:55px;
-        height:55px;
+        width:40px;
+        height:40px;
     }
     .voucher-item .voucher-expired, .voucher-item .voucher-condition,
     .voucher-wrapper .voucher-item .voucher-img span, .voucher-item .voucher-max-return{
@@ -264,7 +265,8 @@
         line-height:2.2rem;
     }
     .voucher-item .voucher-txt-title{
-        line-height:5rem;
+        line-height:3.2rem;
+        font-size:2.5rem;
     }
     .voucher-item .voucher-max-return{
         padding:4px 8px;
@@ -276,8 +278,32 @@
         font-size:1.5rem;
         width:125px;
     }
+    .voucher-item .primary-bg{
+        height:48px;
+        width:138px;
+        font-size:2.8rem;
+        line-height:3rem;
+    }
 }
-@media only screen and (max-width:644px){
+@media only screen and (max-width:796px){
+    nav .nav-menu .menu a{
+        font-size:1.5rem;
+    }
+    .discount-voucher .container{
+        width:100%;
+    }
+    .voucher-item .limited{
+        font-size:1.3rem;
+        height:30px;
+        width:112px;
+    }
+}
+@media only screen and (max-width:692px){
+    header nav{
+        margin:0;
+    }
+}
+@media only screen and (max-width:652px){
     .popUp .popUp-header-img{
         width:140px;
         height:140px;
@@ -294,4 +320,117 @@
     .popUp{
         height:fit-content;
     }
+    .discount-voucher .vouchers .voucher-title{
+        font-size: 2.7rem;
+        line-height: 3.2rem;
+    }
+    .voucher-wrapper .voucher-item .voucher-img, .voucher-wrapper .voucher-item .border{
+        width:100px;
+        height:100px;
+    }
+    .voucher-wrapper .voucher-item .voucher-img img{
+        width:25px;
+        height:25px
+    }
+    .voucher-item .voucher-expired, .voucher-item .voucher-condition, .voucher-wrapper .voucher-item .voucher-img span, .voucher-item .voucher-max-return{
+        font-size:1.2rem;
+    }
+    .voucher-item .primary-bg,
+    .voucher-item .voucher-txt-title{
+        font-size:2rem;
+    }
+    .voucher-item .voucher-condition{
+        margin-top:0;
+    }
+    .voucher-item .limited{
+        font-size:1rem;
+        line-height: inherit;
+        height:14px;
+        width:88px;
+    }
 }
+@media only screen and (max-width:580px){
+    .next-pre-icon{
+        bottom:124px;
+    }
+    nav .nav-menu .menu a{
+        font-size:1.3rem;
+    }
+    .next-pre-icon svg{
+        width:30px;
+    }
+    .discount-voucher{
+        margin-top:32px;
+    }
+    .discount-voucher .vouchers .voucher-wrapper{
+        margin-bottom:30px;
+    }
+    .voucher-wrapper .voucher-item .voucher-img, .voucher-wrapper .voucher-item .border{
+        height:80px;
+        width:80px;
+    }
+    .voucher-item .voucher-expired, .voucher-item .voucher-condition, .voucher-wrapper .voucher-item .voucher-img span, .voucher-item .voucher-max-return{
+        font-size:1rem;
+    }
+    .voucher-item .primary-bg, .voucher-item .voucher-txt-title{
+        font-size:1.3rem;
+    }
+    .voucher-item .voucher-max-return{
+        padding:0;
+        margin-bottom:0;
+    }
+    .voucher-item .primary-bg{
+        height:28px;
+        width:75px;
+    }
+    header nav .nav-menu{
+        display:none;
+    }
+    .hamburger-menu{
+        display:block;
+    }
+    footer .flex{
+        flex-direction:column;
+    }
+    .col-4{
+        width:100%;
+    }
+}
+@media only screen and (max-width:458px){
+    .voucher-item .voucher-txt-title,
+    .voucher-item .voucher-expired{
+        line-height: normal;
+    }
+    .voucher-item .voucher-expired{
+        margin:2px 0;
+
+    }
+    .voucher-item .border .voucher-txt{
+        margin-right:0;
+    }
+}
+@media only screen and (max-width:378px){
+    .voucher-item .limited{
+        font-size:0.7rem;
+        height:10px;
+        width:57px;
+        margin-right:9px;
+    }
+    .voucher-item .limited:after{
+        border-width:10px 10px 0px 0px
+    }
+    .voucher-item .primary-bg, .voucher-item .voucher-txt-title{
+        font-size:1rem;
+    }
+    .voucher-wrapper .voucher-item .border{
+        padding:10px;
+    }
+    .discount-voucher .vouchers .voucher-title{
+        font-size:2rem;
+        line-height:2.4rem;
+    }
+    .next-pre-icon{
+        bottom:82px;
+    }
+    }
+    
