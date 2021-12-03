@@ -10,8 +10,18 @@ header{
 }
 header nav{
     margin:0 9.375%;
+    height:100%;
 }
-
+header nav .nav-menu{
+    height:100%;
+}
+nav .menu{
+    height:100%;
+}
+nav .menu ul{
+    height:100%;
+    align-items:center
+}
 nav .nav-logo .title{
     font-size:0.6rem;
     text-transform:uppercase;
