@@ -508,8 +508,8 @@ button{
               transform: translateY(-500%);
     }
     100% {
-      -webkit-transform: translateY(-200%);
-              transform: translateY(-200%);
+      -webkit-transform: translateY(-180%);
+              transform: translateY(-180%);
     }
   }
   @keyframes slide-bottom {
@@ -518,8 +518,8 @@ button{
               transform: translateY(-500%);
     }
     100% {
-      -webkit-transform: translateY(-200%);
-              transform: translateY(-200%);
+      -webkit-transform: translateY(-180%);
+              transform: translateY(-180%);
     }
   }
   
