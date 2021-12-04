@@ -51,26 +51,7 @@
         z-index:10;
         display:none;
     }
-    @-webkit-keyframes slide-bottom {
-        0% {
-          -webkit-transform: translateY(-500%);
-                  transform: translateY(-500%);
-        }
-        100% {
-          -webkit-transform: translateY(-150%);
-                  transform: translateY(-150%);
-        }
-      }
-      @keyframes slide-bottom {
-        0% {
-          -webkit-transform: translateY(-500%);
-                  transform: translateY(-500%);
-        }
-        100% {
-          -webkit-transform: translateY(-150%);
-                  transform: translateY(-150%);
-        }
-      }
+   
     /* nav .nav-menu .user .cart, nav .nav-menu .user .bell, nav .nav-menu .user .arrow-down,
     nav .nav-menu .user .user-name{
         width:240px;
@@ -88,26 +69,7 @@
     } */
 }
 @media only screen and (max-width:1148px){
-    @-webkit-keyframes slide-bottom {
-        0% {
-          -webkit-transform: translateY(-500%);
-                  transform: translateY(-500%);
-        }
-        100% {
-          -webkit-transform: translateY(-150%);
-                  transform: translateY(-150%);
-        }
-      }
-      @keyframes slide-bottom {
-        0% {
-          -webkit-transform: translateY(-500%);
-                  transform: translateY(-500%);
-        }
-        100% {
-          -webkit-transform: translateY(-150%);
-                  transform: translateY(-150%);
-        }
-      }
+    
 }
 @media only screen and (max-width:1120px){
     .voucher-wrapper .voucher-item .voucher-img{
@@ -222,26 +184,7 @@
     .voucher-item .voucher-max-return{
         font-size:2.3rem;
     }
-    @-webkit-keyframes slide-bottom {
-        0% {
-          -webkit-transform: translateY(-500%);
-                  transform: translateY(-500%);
-        }
-        100% {
-          -webkit-transform: translateY(-100%);
-                  transform: translateY(-100%);
-        }
-      }
-      @keyframes slide-bottom {
-        0% {
-          -webkit-transform: translateY(-500%);
-                  transform: translateY(-500%);
-        }
-        100% {
-          -webkit-transform: translateY(-100%);
-                  transform: translateY(-100%);
-        }
-      }
+   
    
 }
 
@@ -319,6 +262,7 @@
     }
     .popUp{
         height:fit-content;
+        padding:10px;
     }
     .discount-voucher .vouchers .voucher-title{
         font-size: 2.7rem;
@@ -350,14 +294,62 @@
     }
 }
 @media only screen and (max-width:580px){
+    .popUp .popUp-header-img{
+        height:80px;
+        width:80px;
+        margin-right:20px;
+    }
+    .popUp .popUp-header-img img{
+        width:40px;
+        height:40px;
+    }
+    .popUp .popUp-btn{
+        margin-top:10px;
+    }
+    .popUp .popUp-btn button{
+        padding:5px 10px;
+    }
+    .popUp .popUp-btn button,
+    .popUp .popUp-header .popUp-txt-title,
+    .popUp .popUp-content .popUp-txt-title,
+    .popUp .popUp-content .popUp-sm-title
+    {
+        font-size:1.5rem;
+        line-height:1.7rem;
+        
+    }
+    .popUp .popUp-header .popUp-txt-title,
+    .popUp .popUp-content .popUp-txt-title,
+    .popUp .popUp-content .popUp-txt, .code-voucher{
+        margin-bottom:3px;
+        margin-top:auto;
+    }
+    .popUp .popUp-content ul li.popUp-txt,
+    .popUp .popUp-content ul li.popUp-txt:not(:first-child){
+        margin:2px;
+    }
     .next-pre-icon{
+
         bottom:124px;
     }
-    nav .nav-menu .menu a{
+    .popUp .popUp-header .popUp-max-return{
+        padding:3px 5px;
+    }
+    .popUp .popUp-header-img span,
+    .popUp .popUp-header .popUp-max-return{
+        font-weight:400;
+        font-size:1rem;
+    }
+    nav .nav-menu .menu a,
+    .popUp .popUp-content .popUp-txt, .code-voucher
+    {
         font-size:1.3rem;
     }
     .next-pre-icon svg{
         width:30px;
+    }
+    .popUp .popUp-header{
+        margin-bottom:10px;
     }
     .discount-voucher{
         margin-top:32px;
@@ -369,7 +361,10 @@
         height:80px;
         width:80px;
     }
-    .voucher-item .voucher-expired, .voucher-item .voucher-condition, .voucher-wrapper .voucher-item .voucher-img span, .voucher-item .voucher-max-return{
+    .voucher-item .voucher-expired, .voucher-item .voucher-condition,
+     .voucher-wrapper .voucher-item .voucher-img span,
+      .voucher-item .voucher-max-return,
+      .popUp .popUp-header .popUp-expired{
         font-size:1rem;
     }
     .voucher-item .primary-bg, .voucher-item .voucher-txt-title{
@@ -402,12 +397,16 @@
         line-height:1.5rem;
     }
 }
+@media only screen and (max-width:500px){
+
+}
 @media only screen and (max-width:458px){
     .voucher-item .voucher-txt-title,
     .voucher-item .voucher-expired{
         line-height: normal;
     }
-    .voucher-item .voucher-expired{
+    .voucher-item .voucher-expired,
+    .popUp .popUp-header .popUp-expired{
         margin:2px 0;
 
     }
@@ -422,11 +421,23 @@
         width:57px;
         margin-right:9px;
     }
+    .popUp .popUp-header-img{
+        height:60px;
+        width:60px;
+        margin-right:10px;
+    }
+    .popUp .popUp-header-img img{
+        width:30px;
+        height:30px;
+    }
     .voucher-item .limited:after{
         border-width:10px 10px 0px 0px
     }
-    .voucher-item .primary-bg, .voucher-item .voucher-txt-title{
+    .voucher-item .primary-bg, .voucher-item .voucher-txt-title,
+    .popUp .popUp-content .popUp-txt, .code-voucher, .popUp .popUp-header .popUp-txt-title
+    .popUp .popUp-txt-title{
         font-size:1rem;
+        line-height:1.4rem;
     }
     .voucher-wrapper .voucher-item .border{
         padding:10px;

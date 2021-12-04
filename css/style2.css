@@ -277,13 +277,17 @@ nav .menu ul a{
 
 }
 /* pop up */
+.popUp-wrapper{
+    position:absolute;
+    top:50%;
+}
 .popUp{
     padding:17px 16px 79px 19px;
     max-width:970px;
    height:952px;
    background-color:#fff;
     margin:auto;
-    transform:translateY(-500%);
+    /* transform:translateY(-500%); */
     display:none;
     position: relative;
     z-index:100;
