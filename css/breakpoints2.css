@@ -420,10 +420,10 @@
 }
 @media only screen and (max-width:378px){
     .voucher-item .limited{
-        line-height:10px;
+        line-height:16px;
         font-size:0.7rem;
-        height:10px;
-        width:57px;
+        height:16px;
+        width:70px;
         margin-right:9px;
     }
     .popUp .popUp-header-img{
