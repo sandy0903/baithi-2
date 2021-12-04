@@ -383,7 +383,7 @@
     }
     .nav-logo{
     position:fixed;
-    top:0
+    top:-8px;
     }
     .hamburger-menu{
         display:block;
