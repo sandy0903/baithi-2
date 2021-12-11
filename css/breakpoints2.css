@@ -287,7 +287,7 @@
         margin-top:0;
     }
     .voucher-item .limited{
-        font-size:1rem;
+        font-size:1.2rem;
         line-height: inherit;
         height:14px;
         width:88px;
@@ -338,7 +338,7 @@
     .popUp .popUp-header-img span,
     .popUp .popUp-header .popUp-max-return{
         font-weight:400;
-        font-size:1rem;
+        font-size:1.2rem;
     }
     nav .nav-menu .menu a,
     .popUp .popUp-content .popUp-txt, .code-voucher
@@ -365,7 +365,8 @@
      .voucher-wrapper .voucher-item .voucher-img span,
       .voucher-item .voucher-max-return,
       .popUp .popUp-header .popUp-expired{
-        font-size:1rem;
+        font-size:1.2rem;
+        line-height:1.4rem;
     }
     .voucher-item .primary-bg, .voucher-item .voucher-txt-title{
         font-size:1.3rem;
@@ -419,11 +420,19 @@
     }
 }
 @media only screen and (max-width:378px){
+    .mg-21{
+        margin:0 6px;
+    }
+    /* .voucher-wrapper .voucher-item .voucher-img, .voucher-wrapper .voucher-item .border{
+        height:70px;
+        width:70px;
+    } */
+    
     .voucher-item .limited{
         line-height:16px;
-        font-size:0.7rem;
+        font-size:1.2rem;
         height:16px;
-        width:70px;
+        width:100px;
         margin-right:9px;
     }
     .popUp .popUp-header-img{
@@ -441,11 +450,11 @@
     .voucher-item .primary-bg, .voucher-item .voucher-txt-title,
     .popUp .popUp-content .popUp-txt, .code-voucher, .popUp .popUp-header .popUp-txt-title
     .popUp .popUp-txt-title{
-        font-size:1rem;
+        font-size:1.2rem;
         line-height:1.4rem;
     }
     .voucher-wrapper .voucher-item .border{
-        padding:10px;
+        padding:0 5px;
     }
     .discount-voucher .vouchers .voucher-title{
         font-size:2rem;
