@@ -166,6 +166,10 @@
     .popUp .popUp-content{
         width:100%;
     }
+    .voucher-wrapper .voucher-item:hover,
+.wrapper-course .course:hover{
+    transform: translateY(0)
+}
 }
 
 @media only screen and (max-width:960px){
